@@ -1,0 +1,26 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+WTB5,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2266.81,1421.26,90,top
+WTB4,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2411.81,1421.26,90,top
+WTB15,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,816.81,1421.26,90,top
+WTB14,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,961.81,1421.26,90,top
+WTB13,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1106.81,1421.26,90,top
+WTB12,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1251.81,1421.26,90,top
+WTB11,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1396.81,1421.26,90,top
+WTB10,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1541.81,1421.26,90,top
+WTB9,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1686.81,1421.26,90,top
+WTB8,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1831.81,1421.26,90,top
+WTB7,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1976.81,1421.26,90,top
+WTB6,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2121.81,1421.26,90,top
+WTB3,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2556.81,1421.26,90,top
+WTB2,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2701.81,1421.26,90,top
+WTB1,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,2846.81,1421.26,90,top
+WTB16,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,656.26,1403.19,0,top
+WTB18,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,656.26,1693.19,0,top
+WTB17,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,656.26,1548.19,0,top
+Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,2300.00,2950.00,270,top
+Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,2300.00,3790.00,270,top
+I1,"illustration_extruder_typical","unknown",,,,,,,,,,,,,,1816.67,690.56,270,top
+I5,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,975.00,755.00,90,top
+I4,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,830.00,755.00,90,top
+I3,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,1135.00,755.00,90,top
+I2,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,1280.00,755.00,90,top
