@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 3500.00mil 4250.00mil]
 
-Grid[100.00mil 0.0000 0.0000 1]
+Grid[5.00mil 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[6.00mil 0.0000 6.00mil 0.10mil 10.00mil 5.00mil]
@@ -785,7 +785,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "100.00mil")
+Attribute("PCB::grid::size" "5.00mil")
 Via[2750.00mil 1560.00mil 35.00mil 20.00mil 0.0000 25.00mil "" ""]
 Via[2765.00mil 1515.00mil 35.00mil 20.00mil 0.0000 25.00mil "" ""]
 Via[2780.00mil 1470.00mil 35.00mil 20.00mil 0.0000 25.00mil "" ""]
@@ -2226,7 +2226,7 @@ Element["hidename" "illustration_extruder_typical" "I1" "unknown" 36.3722mm 87.9
 
 	)
 
-Element["hidename" "illustration__endpoint_limit_typical" "I5" "unknown" 910.00mil 3780.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "illustration__endpoint_limit_typical" "I5" "unknown" 765.00mil 3780.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2315,7 +2315,7 @@ Element["hidename" "illustration__endpoint_limit_typical" "I5" "unknown" 910.00m
 
 	)
 
-Element["hidename" "illustration__endpoint_limit_typical" "I4" "unknown" 765.00mil 3780.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "illustration__endpoint_limit_typical" "I4" "unknown" 910.00mil 3780.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "unknown")
 	Attribute("manufacturer" "unknown")
@@ -2581,24 +2581,6 @@ Element["hidename" "illustration__endpoint_limit_typical" "I2" "unknown" 1215.00
 	ElementLine [0.0000 -310.00mil 0.0000 0.0000 6.00mil]
 
 	)
-Rat[2010.00mil 3475.00mil 2 2010.00mil 2905.00mil 0  ""]
-Rat[1930.00mil 3475.00mil 2 1930.00mil 2995.00mil 0  ""]
-Rat[1985.00mil 3495.00mil 2 1985.00mil 2935.00mil 0  ""]
-Rat[1955.00mil 3495.00mil 2 1955.00mil 2945.00mil 0  ""]
-Rat[2390.00mil 3495.00mil 2 2390.00mil 3055.00mil 0  ""]
-Rat[2360.00mil 3495.00mil 2 2360.00mil 3045.00mil 0  ""]
-Rat[2245.00mil 3490.00mil 2 2245.00mil 2980.00mil 0  ""]
-Rat[2215.00mil 88.6458mm 0 2215.00mil 2980.00mil 0  ""]
-Rat[2085.00mil 3390.00mil 2 2085.00mil 2910.00mil 0  ""]
-Rat[2070.00mil 3375.00mil 0 2070.00mil 2905.00mil 0  ""]
-Rat[1250.00mil 3485.00mil 0 1150.00mil 2980.00mil 0  ""]
-Rat[1090.00mil 3485.00mil 0 21.5740mm 67.2860mm 2  ""]
-Rat[2195.00mil 3455.00mil 2 2195.00mil 2920.00mil 0  ""]
-Rat[1295.00mil 2980.00mil 0 1395.00mil 3485.00mil 0  ""]
-Rat[945.00mil 3485.00mil 0 21.5740mm 70.9690mm 2  ""]
-Rat[1220.00mil 3485.00mil 0 1120.00mil 2980.00mil 0  ""]
-Rat[1060.00mil 3565.00mil 2 21.5740mm 63.6030mm 2  ""]
-Rat[2165.00mil 3455.00mil 2 2165.00mil 2925.00mil 0  ""]
 Layer(1 "P1_W1" "copper")
 (
 	Line[2065.00mil 1000.00mil 2065.00mil 1015.00mil 6.00mil 20.00mil "clearline"]

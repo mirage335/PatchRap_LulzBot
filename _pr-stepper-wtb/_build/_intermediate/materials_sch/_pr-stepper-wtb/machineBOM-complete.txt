@@ -1,0 +1,4 @@
+refdes:footprint:value:description:cost:device:mfr:mfrpn:dst:dstpn:link:link_page:supplier:sbapn:kitting:kitting_d:nobom:noplace:qty
+STEP:eth_571-1734795-1:-:$0.95 MOUSER 571-1734795-1:0.95:CONNECTOR_13:TE Connectivity:1734795-1:Mouser:571-1734795-1:www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf:1:c:unknown:other:not known to be available in machine usable format:unknown:unknown:1
+R1:0805:2.2k:$0.148 MOUSER 71-CRCW08052K20JNEAH:0.148:RESISTOR:Vishay / Dale:CRCW08052K20JNEAHP:Mouser:71-CRCW08052K20JNEAH:www.mouser.com/ds/2/427/crcwhpe3-46056.pdf:9:c:unknown:tape-no-leader:unknown:unknown:unknown:1
+BLACK,BLUE,GREEN,RED:wireToBoard.fp:-:unknown:unknown:CONNECTOR_4:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:4

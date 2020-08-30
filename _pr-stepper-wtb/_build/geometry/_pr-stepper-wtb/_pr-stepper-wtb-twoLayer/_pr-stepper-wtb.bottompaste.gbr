@@ -1,0 +1,25 @@
+G04 start of page 13 for group -4014 idx -4014 *
+G04 Title: (unknown), bottompaste *
+G04 Creator: pcb 4.2.0 *
+G04 CreationDate: Sun Aug 30 21:45:36 2020 UTC *
+G04 For: commonadmin *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions (mil): 11000.00 7000.00 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNBOTTOMPASTE*%
+%ADD101C,0.0001*%
+G54D101*G36*
+X39442Y681452D02*X34324D01*
+Y675548D01*
+X39442D01*
+Y681452D01*
+G37*
+G36*
+X46528D02*X41410D01*
+Y675548D01*
+X46528D01*
+Y681452D01*
+G37*
+M02*

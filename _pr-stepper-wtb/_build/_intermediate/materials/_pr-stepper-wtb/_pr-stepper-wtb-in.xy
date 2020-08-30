@@ -1,0 +1,13 @@
+# PcbXY Version 1.0
+# Date: Sun 30 Aug 2020 09:45:40 PM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in in.  rotation in degrees.
+# --------------------------------------------
+BLACK,"wireToBoard.fp","-",0.55,6.14,90,top
+RED,"wireToBoard.fp","-",0.71,6.11,90,top
+GREEN,"wireToBoard.fp","-",0.39,6.14,90,top
+BLUE,"wireToBoard.fp","-",0.23,6.11,90,top
+R1,"0805","2.2k",0.40,6.79,180,bottom
+STEP,"eth_571-1734795-1","-",0.46,6.56,0,top
