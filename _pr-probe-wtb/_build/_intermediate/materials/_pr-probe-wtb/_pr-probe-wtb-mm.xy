@@ -1,0 +1,29 @@
+# PcbXY Version 1.0
+# Date: Mon 31 Aug 2020 02:34:55 AM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mm.  rotation in degrees.
+# --------------------------------------------
+X1/GEN,"eth_571-1734795-1","-",11.18,16.78,0,top
+X1/R1,"0805","2.2k",4.32,14.59,270,bottom
+X1/R2,"0805","2.2k",16.64,14.59,270,bottom
+X1/J3,"0201","-",8.08,12.83,0,bottom
+X1/T1,"SparkGapPCB","2kV",5.84,15.82,0,bottom
+X1/T3,"SparkGapPCB","2kV",9.06,15.20,0,bottom
+X1/U1,"MSOP10","unknown",11.24,12.83,180,bottom
+X1/T2,"SparkGapPCB","2kV",7.46,15.44,0,bottom
+X1/T4,"SparkGapPCB","2kV",10.51,15.22,0,bottom
+X1/T5,"SparkGapPCB","2kV",11.91,15.31,0,bottom
+X1/T6,"SparkGapPCB","2kV",13.56,15.48,0,bottom
+X1/T7,"SparkGapPCB","2kV",15.16,14.97,0,bottom
+X1/C1,"0402","4.7uF",7.62,13.35,90,bottom
+X1/J2,"0201","-",8.38,14.65,90,bottom
+X1/C2,"0402","4.7uF",9.42,10.79,180,bottom
+X1/J1,"0201","-",8.34,20.19,0,bottom
+WTB6,"wireToBoard.fp","-",2.97,4.10,90,top
+WTB5,"wireToBoard.fp","-",6.65,4.10,90,top
+WTB4,"wireToBoard.fp","-",10.33,4.10,90,top
+WTB3,"wireToBoard.fp","-",14.02,4.10,90,top
+WTB2,"wireToBoard.fp","-",17.70,4.10,90,top
+WTB1,"wireToBoard.fp","-",21.38,4.10,90,top

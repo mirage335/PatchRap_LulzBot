@@ -1,0 +1,6 @@
+X1/U1:MSOP10:unknown:$1.17 MOUSER 576-SP3003-08ATG:1.17:Suppressor:Littlefuse:SP3003-08ATG:Mouser:576-SP3003-08ATG:www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf:5:c:unknown:tape-no-leader:unknown:unknown:unknown:1
+X1/C1,X1/C2:0402:4.7uF:$0.093 MOUSER 603-CC402MRX5R5BB475:0.093:CAPACITOR:Yageo:CC0402MRX5R5BB475:Mouser:CC0402MRX5R5BB475:www.mouser.com/ds/2/447/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf:4:c:unknown:tape-no-leader:unknown:unknown:unknown:2
+X1/GEN:eth_571-1734795-1:-:$0.95 MOUSER 571-1734795-1:0.95:CONNECTOR_13:TE Connectivity:1734795-1:Mouser:571-1734795-1:www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf:1:c:unknown:other:not known to be available in machine usable format:unknown:unknown:1
+X1/R1,X1/R2:0805:2.2k:$0.148 MOUSER 71-CRCW08052K20JNEAH:0.148:RESISTOR:Vishay / Dale:CRCW08052K20JNEAHP:Mouser:71-CRCW08052K20JNEAH:www.mouser.com/ds/2/427/crcwhpe3-46056.pdf:9:c:unknown:tape-no-leader:unknown:unknown:unknown:2
+PWMa,PWMd,SigM,SigP:unknown:unknown:unknown:unknown:INPUT:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:4
+WTB1,WTB2,WTB3,WTB4,WTB5,WTB6:wireToBoard.fp:-:unknown:unknown:CONNECTOR_4:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:unknown:6

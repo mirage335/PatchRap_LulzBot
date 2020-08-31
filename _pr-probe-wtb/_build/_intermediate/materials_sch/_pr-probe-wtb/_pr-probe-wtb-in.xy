@@ -1,0 +1,13 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+X1/GEN,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,0.44,0.66,0,top
+X1/R1,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,0.17,0.57,270,bottom
+X1/R2,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,0.66,0.57,270,bottom
+X1/U1,"MSOP10","unknown",$1.17 MOUSER 576-SP3003-08ATG,1.17,Suppressor,Littlefuse,SP3003-08ATG,Mouser,576-SP3003-08ATG,www.mouser.com/ds/2/240/Littelfuse_TVS_Diode_Array_SP3003_Datasheet.pdf-709348.pdf,5,c,,tape-no-leader,,0.44,0.51,180,bottom
+X1/C1,"0402","4.7uF",$0.093 MOUSER 603-CC402MRX5R5BB475,0.093,CAPACITOR,Yageo,CC0402MRX5R5BB475,Mouser,CC0402MRX5R5BB475,www.mouser.com/ds/2/447/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf,4,c,,tape-no-leader,,0.30,0.53,90,bottom
+X1/C2,"0402","4.7uF",$0.093 MOUSER 603-CC402MRX5R5BB475,0.093,CAPACITOR,Yageo,CC0402MRX5R5BB475,Mouser,CC0402MRX5R5BB475,www.mouser.com/ds/2/447/UPY-GPHC_X5R_4V-to-50V_14_0717-202131.pdf,4,c,,tape-no-leader,,0.37,0.42,180,bottom
+WTB6,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.12,0.16,90,top
+WTB5,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.26,0.16,90,top
+WTB4,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.41,0.16,90,top
+WTB3,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.55,0.16,90,top
+WTB2,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.70,0.16,90,top
+WTB1,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.84,0.16,90,top

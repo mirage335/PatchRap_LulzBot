@@ -1,17 +1,17 @@
 G04 start of page 3 for group 1 idx 12 *
 G04 Title: (unknown), outline *
 G04 Creator: pcb 4.2.0 *
-G04 CreationDate: Sun Aug 30 21:45:36 2020 UTC *
+G04 CreationDate: Sun Aug 30 22:39:59 2020 UTC *
 G04 For: commonadmin *
 G04 Format: Gerber/RS-274X *
-G04 PCB-Dimensions (mil): 11000.00 7000.00 *
+G04 PCB-Dimensions (mil): 1000.00 1250.00 *
 G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
 %LNOUTLINE*%
 %ADD28C,0.0060*%
-G54D28*X11000Y693000D02*Y595000D01*
+G54D28*X11000Y118000D02*Y20000D01*
 X83000D01*
-Y693000D01*
+Y118000D01*
 X11000D01*
 M02*

@@ -1,0 +1,13 @@
+# PcbBOM Version 1.0
+# Date: Mon 31 Aug 2020 02:34:55 AM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB BOM
+# Quantity, Description, Value, RefDes, footprint, value, description, cost, device, mfr, mfrpn, dst, dstpn, link, link_page, supplier, sbapn, kitting, kitting_d, nobom, noplace
+# --------------------------------------------
+1,"eth_571-1734795-1","-",X1/GEN ,"","","","","CONNECTOR_13","","","","","","","","","","","",""
+2,"0805","2.2k",X1/R1 X1/R2 ,"","","","","RESISTOR","","","","","","","","","","","",""
+3,"0201","-",X1/J3 X1/J2 X1/J1 ,"","","","","JUMPER","","","","","","","","","","","",""
+7,"SparkGapPCB","2kV",X1/T1 X1/T3 X1/T2 X1/T4 X1/T5 X1/T6 X1/T7 ,"","","","","SparkGap","","","","","","","","","","","",""
+1,"MSOP10","unknown",X1/U1 ,"","","","","Suppressor","","","","","","","","","","","",""
+2,"0402","4.7uF",X1/C1 X1/C2 ,"","","","","CAPACITOR","","","","","","","","","","","",""
+6,"wireToBoard.fp","-",WTB6 WTB5 WTB4 WTB3 WTB2 WTB1 ,"","","","","CONNECTOR_4","","","","","","","","","","","",""

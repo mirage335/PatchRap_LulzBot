@@ -1,0 +1,10 @@
+(component-library "./_out_PatchRap_symbols")
+(component-library "./_out_PatchRap_breakouts")
+
+
+
+(component-library "./customParts")
+(component-library "./gedasymbols")
+
+(component-library-search "./subsystems")
+(source-library-search "./subsystems")

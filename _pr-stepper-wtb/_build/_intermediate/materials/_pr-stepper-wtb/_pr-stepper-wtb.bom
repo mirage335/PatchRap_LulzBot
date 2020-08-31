@@ -1,5 +1,5 @@
 # PcbBOM Version 1.0
-# Date: Sun 30 Aug 2020 09:45:40 PM GMT UTC
+# Date: Sun 30 Aug 2020 10:40:04 PM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB BOM
 # Quantity, Description, Value, RefDes, footprint, value, description, cost, device, mfr, mfrpn, dst, dstpn, link, link_page, supplier, sbapn, kitting, kitting_d, nobom, noplace
@@ -7,3 +7,4 @@
 4,"wireToBoard.fp","-",BLACK RED GREEN BLUE ,"","","","","CONNECTOR_4","","","","","","","","","","","",""
 1,"0805","2.2k",R1 ,"","","","","RESISTOR","","","","","","","","","","","",""
 1,"eth_571-1734795-1","-",STEP ,"","","","","CONNECTOR_13","","","","","","","","","","","",""
+2,"SparkGapPCB","2kV",T2 T1 ,"","","","","SparkGap","","","","","","","","","","","",""

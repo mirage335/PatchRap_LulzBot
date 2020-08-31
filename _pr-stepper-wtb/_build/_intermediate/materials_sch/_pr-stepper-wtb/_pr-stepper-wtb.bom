@@ -1,4 +1,6 @@
 refdes	footprint	value	description	cost	device	mfr	mfrpn	dst	dstpn	link	link_page	supplier	sbapn	kitting	kitting_d	nobom	noplace	
+T2	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
+T1	SparkGapPCB	2kV	-	unknown	SparkGap	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	true	true	
 RED	wireToBoard.fp	-	unknown	unknown	CONNECTOR_4	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 BLACK	wireToBoard.fp	-	unknown	unknown	CONNECTOR_4	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
 GREEN	wireToBoard.fp	-	unknown	unknown	CONNECTOR_4	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	unknown	
