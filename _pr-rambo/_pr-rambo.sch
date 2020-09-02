@@ -1,9 +1,9 @@
 v 20130925 2
-C 54900 31600 1 0 0 illustration_motherboard_rambo12.sym
+C 54300 34100 1 0 0 illustration_motherboard_rambo12.sym
 {
-T 55000 32300 5 10 0 0 0 0 1
+T 54400 34800 5 10 0 0 0 0 1
 footprint=rambo12
-T 55300 32100 5 10 1 1 0 0 1
+T 54700 34600 5 10 1 1 0 0 1
 refdes=I1
 }
 C 66300 38500 1 0 1 connector2-2.sym
@@ -1174,7 +1174,6 @@ T 77500 69000 5 10 1 1 0 0 1
 refdes=M2
 }
 L 90300 67000 92000 67000 3 0 0 0 -1 -1
-L 50500 28000 50300 28000 3 0 0 0 -1 -1
 T 68800 80100 9 10 1 0 0 0 1
 Cat6A/Cat5E
 L 68600 80100 70000 80100 3 0 0 0 -1 -1
@@ -1713,7 +1712,7 @@ L 80900 78600 80900 76200 3 0 0 0 -1 -1
 L 69600 78700 71800 78700 3 0 0 0 -1 -1
 L 71800 78700 71800 76200 3 0 0 0 -1 -1
 L 89800 49000 91500 49000 3 0 0 0 -1 -1
-T 58300 79200 9 10 1 0 0 0 11
+T 58300 79200 9 10 1 0 0 0 13
 Use two junction boxes.
 
 Motherboard and patches are in oil-filled
@@ -1725,3 +1724,14 @@ filled with all cables and waterproof sealant.
 
 Any unintentional drainage of coolant fluid
 should first show up in the smaller box.
+
+Panel may be mounted to small junction box.
+L 51500 36700 50700 36700 3 0 0 0 -1 -1
+L 50700 36700 50700 26500 3 0 0 0 -1 -1
+T 50200 26500 9 10 1 0 0 0 1
+USB
+L 61100 37200 61100 31700 3 0 0 0 -1 -1
+L 61100 31700 50800 31700 3 0 0 0 -1 -1
+L 50800 31700 50800 26500 3 0 0 0 -1 -1
+T 50900 26500 9 10 1 0 0 0 1
+Panel
