@@ -1,0 +1,1727 @@
+v 20130925 2
+C 54900 31600 1 0 0 illustration_motherboard_rambo12.sym
+{
+T 55000 32300 5 10 0 0 0 0 1
+footprint=rambo12
+T 55300 32100 5 10 1 1 0 0 1
+refdes=I1
+}
+C 66300 38500 1 0 1 connector2-2.sym
+{
+T 66000 39750 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 66000 39950 5 10 0 0 0 6 1
+footprint=XT60
+T 66300 38500 5 10 0 0 0 6 1
+description=$0.80 HobbyKing XT60
+T 66300 38500 5 10 0 0 0 6 1
+value=60A
+T 66300 38500 5 10 0 0 0 0 1
+cost=$0.80
+T 66300 38500 5 10 0 0 0 0 1
+mfr=HobbyKing
+T 66300 38500 5 10 0 0 0 0 1
+mfrpn=XT60
+T 66300 38500 5 10 0 0 0 0 1
+dst=HobbyKing
+T 66300 38500 5 10 0 0 0 0 1
+dstpn=XT60
+T 66300 38500 5 10 0 0 0 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 66300 38500 5 10 0 0 0 0 1
+link_page=N/A
+T 66300 38500 5 10 0 0 0 0 1
+supplier=c
+T 66300 38500 5 10 0 0 0 0 1
+kitting=other
+T 66300 38500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 64900 39500 5 10 1 1 0 0 1
+refdes=VSYS1
+}
+T 65600 38300 9 10 1 0 0 0 1
+XT60
+T 65000 39300 9 10 1 0 0 0 1
+Vsys
+T 65100 38800 9 10 1 0 0 0 1
+Vee
+C 66000 33600 1 0 0 io-1.sym
+{
+T 66900 33800 5 10 1 0 0 0 1
+net=Thermistor-Slab:1
+T 66200 34200 5 10 0 0 0 0 1
+device=none
+T 66900 33700 5 10 1 1 0 1 1
+value=IO
+}
+C 55500 52700 1 0 0 illustration_breadboard.sym
+{
+T 55600 53400 5 10 0 0 0 0 1
+footprint=breadboard
+T 55900 53200 5 10 1 1 0 0 1
+refdes=I2
+}
+C 64100 36000 1 180 0 Vext.sym
+{
+T 64100 35700 5 10 0 1 180 0 1
+device=Vext
+}
+C 63300 35700 1 0 0 gnd-1.sym
+C 52900 35100 1 90 0 io-1.sym
+{
+T 52700 36000 5 10 1 0 90 0 1
+net=Limit_C-Y-min:1
+T 52300 35300 5 10 0 0 90 0 1
+device=none
+T 52800 36000 5 10 1 1 90 1 1
+value=IO
+}
+C 52500 35100 1 90 0 io-1.sym
+{
+T 52300 36000 5 10 1 0 90 0 1
+net=Limit_C-X-min:1
+T 51900 35300 5 10 0 0 90 0 1
+device=none
+T 52400 36000 5 10 1 1 90 1 1
+value=IO
+}
+C 54100 30700 1 270 0 io-1.sym
+{
+T 54300 29800 5 10 1 0 270 0 1
+net=STEP-X-bM:1
+T 54700 30500 5 10 0 0 270 0 1
+device=none
+T 54200 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 53700 30700 1 270 0 io-1.sym
+{
+T 53900 29800 5 10 1 0 270 0 1
+net=STEP-X-bP:1
+T 54300 30500 5 10 0 0 270 0 1
+device=none
+T 53800 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 53300 30700 1 270 0 io-1.sym
+{
+T 53500 29800 5 10 1 0 270 0 1
+net=STEP-X-aP:1
+T 53900 30500 5 10 0 0 270 0 1
+device=none
+T 53400 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 52900 30700 1 270 0 io-1.sym
+{
+T 53100 29800 5 10 1 0 270 0 1
+net=STEP-X-aM:1
+T 53500 30500 5 10 0 0 270 0 1
+device=none
+T 53000 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 53200 30500 9 10 1 0 90 0 1
+Red
+T 53600 30500 9 10 1 0 90 0 1
+White
+T 54000 30500 9 10 1 0 90 0 1
+Green
+T 54400 30500 9 10 1 0 90 0 1
+Black
+C 56600 30700 1 270 0 io-1.sym
+{
+T 57200 30500 5 10 0 0 270 0 1
+device=none
+T 56800 29800 5 10 1 0 270 0 1
+net=STEP-Y-bM:1
+T 56700 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 56200 30700 1 270 0 io-1.sym
+{
+T 56800 30500 5 10 0 0 270 0 1
+device=none
+T 56400 29800 5 10 1 0 270 0 1
+net=STEP-Y-bP:1
+T 56300 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 55800 30700 1 270 0 io-1.sym
+{
+T 56400 30500 5 10 0 0 270 0 1
+device=none
+T 56000 29800 5 10 1 0 270 0 1
+net=STEP-Y-aP:1
+T 55900 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 55400 30700 1 270 0 io-1.sym
+{
+T 56000 30500 5 10 0 0 270 0 1
+device=none
+T 55600 29800 5 10 1 0 270 0 1
+net=STEP-Y-aM:1
+T 55500 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 55700 30500 9 10 1 0 90 0 1
+Red
+T 56100 30500 9 10 1 0 90 0 1
+White
+T 56500 30500 9 10 1 0 90 0 1
+Green
+T 56900 30500 9 10 1 0 90 0 1
+Black
+C 59100 30700 1 270 0 io-1.sym
+{
+T 59700 30500 5 10 0 0 270 0 1
+device=none
+T 59300 29800 5 10 1 0 270 0 1
+net=STEP-Z0-bM:1
+T 59200 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 58700 30700 1 270 0 io-1.sym
+{
+T 59300 30500 5 10 0 0 270 0 1
+device=none
+T 58900 29800 5 10 1 0 270 0 1
+net=STEP-Z0-bP:1
+T 58800 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 58300 30700 1 270 0 io-1.sym
+{
+T 58900 30500 5 10 0 0 270 0 1
+device=none
+T 58500 29800 5 10 1 0 270 0 1
+net=STEP-Z0-aP:1
+T 58400 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 57900 30700 1 270 0 io-1.sym
+{
+T 58500 30500 5 10 0 0 270 0 1
+device=none
+T 58100 29800 5 10 1 0 270 0 1
+net=STEP-Z0-aM:1
+T 58000 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 58200 30500 9 10 1 0 90 0 1
+Red
+T 58600 30500 9 10 1 0 90 0 1
+White
+T 59000 30500 9 10 1 0 90 0 1
+Green
+T 59400 30500 9 10 1 0 90 0 1
+Black
+C 61100 30700 1 270 0 io-1.sym
+{
+T 61700 30500 5 10 0 0 270 0 1
+device=none
+T 61300 29800 5 10 1 0 270 0 1
+net=STEP-Z1-bM:1
+T 61200 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 60700 30700 1 270 0 io-1.sym
+{
+T 61300 30500 5 10 0 0 270 0 1
+device=none
+T 60900 29800 5 10 1 0 270 0 1
+net=STEP-Z1-bP:1
+T 60800 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 60300 30700 1 270 0 io-1.sym
+{
+T 60900 30500 5 10 0 0 270 0 1
+device=none
+T 60500 29800 5 10 1 0 270 0 1
+net=STEP-Z1-aP:1
+T 60400 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 59900 30700 1 270 0 io-1.sym
+{
+T 60500 30500 5 10 0 0 270 0 1
+device=none
+T 60100 29800 5 10 1 0 270 0 1
+net=STEP-Z1-aM:1
+T 60000 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 60200 30500 9 10 1 0 90 0 1
+Red
+T 60600 30500 9 10 1 0 90 0 1
+White
+T 61000 30500 9 10 1 0 90 0 1
+Green
+T 61400 30500 9 10 1 0 90 0 1
+Black
+C 63600 30700 1 270 0 io-1.sym
+{
+T 64200 30500 5 10 0 0 270 0 1
+device=none
+T 63800 29800 5 10 1 0 270 0 1
+net=STEP-E0-bM:1
+T 63700 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 63200 30700 1 270 0 io-1.sym
+{
+T 63800 30500 5 10 0 0 270 0 1
+device=none
+T 63400 29800 5 10 1 0 270 0 1
+net=STEP-E0-bP:1
+T 63300 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 62800 30700 1 270 0 io-1.sym
+{
+T 63400 30500 5 10 0 0 270 0 1
+device=none
+T 63000 29800 5 10 1 0 270 0 1
+net=STEP-E0-aP:1
+T 62900 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 62400 30700 1 270 0 io-1.sym
+{
+T 63000 30500 5 10 0 0 270 0 1
+device=none
+T 62600 29800 5 10 1 0 270 0 1
+net=STEP-E0-aM:1
+T 62500 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 62700 30500 9 10 1 0 90 0 1
+Red
+T 63100 30500 9 10 1 0 90 0 1
+White
+T 63500 30500 9 10 1 0 90 0 1
+Green
+T 63900 30500 9 10 1 0 90 0 1
+Black
+C 65600 30700 1 270 0 io-1.sym
+{
+T 66200 30500 5 10 0 0 270 0 1
+device=none
+T 65800 29800 5 10 1 0 270 0 1
+net=STEP-E1-bM:1
+T 65700 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 65200 30700 1 270 0 io-1.sym
+{
+T 65800 30500 5 10 0 0 270 0 1
+device=none
+T 65400 29800 5 10 1 0 270 0 1
+net=STEP-E1-bP:1
+T 65300 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 64800 30700 1 270 0 io-1.sym
+{
+T 65400 30500 5 10 0 0 270 0 1
+device=none
+T 65000 29800 5 10 1 0 270 0 1
+net=STEP-E1-aP:1
+T 64900 29800 5 10 1 1 270 1 1
+value=IO
+}
+C 64400 30700 1 270 0 io-1.sym
+{
+T 65000 30500 5 10 0 0 270 0 1
+device=none
+T 64600 29800 5 10 1 0 270 0 1
+net=STEP-E1-aM:1
+T 64500 29800 5 10 1 1 270 1 1
+value=IO
+}
+T 64700 30500 9 10 1 0 90 0 1
+Red
+T 65100 30500 9 10 1 0 90 0 1
+White
+T 65500 30500 9 10 1 0 90 0 1
+Green
+T 65900 30500 9 10 1 0 90 0 1
+Black
+C 53300 34700 1 90 1 io-1.sym
+{
+T 52700 34500 5 10 0 0 270 2 1
+device=none
+T 53100 33800 5 10 1 0 270 2 1
+net=Limit_C-Z-max:1
+T 53200 33800 5 10 1 1 270 1 1
+value=IO
+}
+C 52900 34700 1 90 1 io-1.sym
+{
+T 52300 34500 5 10 0 0 270 2 1
+device=none
+T 52700 33800 5 10 1 0 270 2 1
+net=Limit_C-Y-max:1
+T 52800 33800 5 10 1 1 270 1 1
+value=IO
+}
+C 52500 34700 1 90 1 io-1.sym
+{
+T 51900 34500 5 10 0 0 270 2 1
+device=none
+T 52300 33800 5 10 1 0 270 2 1
+net=Limit_C-X-max:1
+T 52400 33800 5 10 1 1 270 1 1
+value=IO
+}
+T 65600 33600 9 10 1 0 0 0 1
+T2
+C 66000 34600 1 0 0 io-1.sym
+{
+T 66900 34800 5 10 1 0 0 0 1
+net=Thermistor-T0:1
+T 66200 35200 5 10 0 0 0 0 1
+device=none
+T 66900 34700 5 10 1 1 0 1 1
+value=IO
+}
+C 66000 34100 1 0 0 io-1.sym
+{
+T 66900 34300 5 10 1 0 0 0 1
+net=Thermistor-T1:1
+T 66200 34700 5 10 0 0 0 0 1
+device=none
+T 66900 34200 5 10 1 1 0 1 1
+value=IO
+}
+C 66000 33100 1 0 0 io-1.sym
+{
+T 66900 33300 5 10 1 0 0 0 1
+net=Thermistor-T3:1
+T 66200 33700 5 10 0 0 0 0 1
+device=none
+T 66900 33200 5 10 1 1 0 1 1
+value=IO
+}
+C 57000 37600 1 0 0 io-1.sym
+{
+T 57900 37800 5 10 1 0 0 0 1
+net=ToolPartial_PWM:1
+T 57200 38200 5 10 0 0 0 0 1
+device=none
+T 57900 37700 5 10 1 1 0 1 1
+value=IO
+}
+T 56500 37700 9 10 1 0 0 0 1
+Fan2
+L 62000 37700 62000 36700 3 0 0 0 -1 -1
+L 62000 36700 64000 36700 3 0 0 0 -1 -1
+L 62000 37700 64000 37700 3 0 0 0 -1 -1
+L 64000 37700 64000 36700 3 0 0 0 -1 -1
+L 62000 37200 64000 37200 3 0 0 0 -1 -1
+L 62500 37700 62500 36700 3 0 0 0 -1 -1
+L 63000 37700 63000 36700 3 0 0 0 -1 -1
+L 63500 37700 63500 36700 3 0 0 0 -1 -1
+T 63400 36100 9 10 1 0 90 0 1
+GND
+T 63900 36100 9 10 1 0 90 0 1
+Vext
+T 62900 36100 9 10 1 0 90 0 1
+PWM
+L 64000 36700 63900 36600 3 0 0 0 -1 -1
+L 63500 36700 63400 36600 3 0 0 0 -1 -1
+L 63000 36700 62900 36600 3 0 0 0 -1 -1
+L 63900 36600 63900 36100 3 0 0 0 -1 -1
+L 63400 36600 63400 36100 3 0 0 0 -1 -1
+L 62900 36600 62900 36100 3 0 0 0 -1 -1
+L 63100 36800 63000 36700 3 0 0 0 -1 -1
+L 63500 36700 63600 36800 3 0 0 0 -1 -1
+L 64000 36700 64100 36800 3 0 0 0 -1 -1
+C 62800 36000 1 270 0 io-1.sym
+{
+T 63000 35100 5 10 1 0 270 0 1
+net=Servo_PWM:1
+T 63400 35800 5 10 0 0 270 0 1
+device=none
+T 62900 35100 5 10 1 1 270 1 1
+value=IO
+}
+C 56600 39700 1 90 0 io-1.sym
+{
+T 56400 40600 5 10 1 0 90 0 1
+net=Cooling0:1
+T 56000 39900 5 10 0 0 90 0 1
+device=none
+T 56500 40600 5 10 1 1 90 1 1
+value=IO
+}
+C 59100 39700 1 90 0 io-1.sym
+{
+T 58500 39900 5 10 0 0 90 0 1
+device=none
+T 58900 40600 5 10 1 0 90 0 1
+net=Cooling1:1
+T 59000 40600 5 10 1 1 90 1 1
+value=IO
+}
+C 61500 39700 1 90 0 connector2-2.sym
+{
+T 60250 40000 5 10 0 0 90 0 1
+device=CONNECTOR_2
+T 60050 40000 5 10 0 0 90 0 1
+footprint=XT60
+T 61500 39700 5 10 0 0 90 0 1
+description=$0.80 HobbyKing XT60
+T 61500 39700 5 10 0 0 90 0 1
+value=60A
+T 61500 39700 5 10 0 0 90 6 1
+cost=$0.80
+T 61500 39700 5 10 0 0 90 6 1
+mfr=HobbyKing
+T 61500 39700 5 10 0 0 90 6 1
+mfrpn=XT60
+T 61500 39700 5 10 0 0 90 6 1
+dst=HobbyKing
+T 61500 39700 5 10 0 0 90 6 1
+dstpn=XT60
+T 61500 39700 5 10 0 0 90 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 61500 39700 5 10 0 0 90 6 1
+link_page=N/A
+T 61500 39700 5 10 0 0 90 6 1
+supplier=c
+T 61500 39700 5 10 0 0 90 6 1
+kitting=other
+T 61500 39700 5 10 0 0 90 6 1
+kitting_d=not known to be available in machine usable format
+T 60400 41700 5 10 1 1 90 6 1
+refdes=VHEAT1-SLAB
+}
+T 61700 40500 9 10 1 0 90 6 1
+XT60
+T 49600 37300 9 10 1 0 0 0 3
+Diode OR-Gate
+Zmin Common
+for probe.
+T 62400 38000 9 10 1 0 0 0 1
+MOTOR EXT 1
+V 63900 36800 100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 75200 82600 1 0 1 voltage-3.sym
+{
+T 75000 83300 5 8 0 0 0 6 1
+device=VOLTAGE_SOURCE
+T 74900 83100 5 10 1 1 0 6 1
+refdes=24vPSU
+T 75200 82600 5 10 0 0 0 6 1
+footprint=ACY100P
+}
+T 60600 40500 9 10 1 0 0 0 1
++
+T 61100 40500 9 10 1 0 0 0 1
+-
+C 74100 82300 1 270 0 connector2-2.sym
+{
+T 75350 82000 5 10 0 0 90 8 1
+device=CONNECTOR_2
+T 75550 82000 5 10 0 0 90 8 1
+footprint=XT60
+T 74100 82300 5 10 0 0 90 8 1
+description=$0.80 HobbyKing XT60
+T 74100 82300 5 10 0 0 90 8 1
+value=60A
+T 74100 82300 5 10 0 0 90 2 1
+cost=$0.80
+T 74100 82300 5 10 0 0 90 2 1
+mfr=HobbyKing
+T 74100 82300 5 10 0 0 90 2 1
+mfrpn=XT60
+T 74100 82300 5 10 0 0 90 2 1
+dst=HobbyKing
+T 74100 82300 5 10 0 0 90 2 1
+dstpn=XT60
+T 74100 82300 5 10 0 0 90 2 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 74100 82300 5 10 0 0 90 2 1
+link_page=N/A
+T 74100 82300 5 10 0 0 90 2 1
+supplier=c
+T 74100 82300 5 10 0 0 90 2 1
+kitting=other
+T 74100 82300 5 10 0 0 90 2 1
+kitting_d=not known to be available in machine usable format
+T 75100 80900 5 10 1 1 90 2 1
+refdes=VPSU2
+}
+T 73900 81600 9 10 1 0 90 2 1
+XT60
+T 74900 81400 9 10 1 0 90 2 1
++
+T 74400 81400 9 10 1 0 90 2 1
+-
+N 74900 82300 75200 82300 4
+N 75200 82300 75200 82800 4
+N 74300 82800 74300 82300 4
+N 74300 82300 74500 82300 4
+C 80300 83300 1 270 1 connector2-2.sym
+{
+T 81300 84700 5 10 1 1 270 0 1
+refdes=VPSU1
+T 81550 83600 5 10 0 0 270 6 1
+device=CONNECTOR_2
+T 81750 83600 5 10 0 0 270 6 1
+footprint=XT60
+T 80300 83300 5 10 0 0 270 6 1
+description=$0.80 HobbyKing XT60
+T 80300 83300 5 10 0 0 270 6 1
+value=60A
+T 80300 83300 5 10 0 0 270 0 1
+cost=$0.80
+T 80300 83300 5 10 0 0 270 0 1
+mfr=HobbyKing
+T 80300 83300 5 10 0 0 270 0 1
+mfrpn=XT60
+T 80300 83300 5 10 0 0 270 0 1
+dst=HobbyKing
+T 80300 83300 5 10 0 0 270 0 1
+dstpn=XT60
+T 80300 83300 5 10 0 0 270 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 80300 83300 5 10 0 0 270 0 1
+link_page=N/A
+T 80300 83300 5 10 0 0 270 0 1
+supplier=c
+T 80300 83300 5 10 0 0 270 0 1
+kitting=other
+T 80300 83300 5 10 0 0 270 0 1
+kitting_d=not known to be available in machine usable format
+}
+T 80100 84000 9 10 1 0 270 0 1
+XT60
+T 81100 84200 9 10 1 0 270 0 1
++
+T 80600 84200 9 10 1 0 270 0 1
+-
+C 81100 83300 1 270 0 fuse-1.sym
+{
+T 81500 83100 5 10 0 0 270 0 1
+device=FUSE
+T 81300 83100 5 10 1 1 270 0 1
+refdes=F1
+T 81700 83100 5 10 0 0 270 0 1
+symversion=0.1
+T 81100 83300 5 10 0 0 270 0 1
+footprint=ACY900
+}
+C 81100 80600 1 270 0 fuse-1.sym
+{
+T 81500 80400 5 10 0 0 270 0 1
+device=FUSE
+T 81300 80400 5 10 1 1 270 0 1
+refdes=F?
+T 81700 80400 5 10 0 0 270 0 1
+symversion=0.1
+T 81100 80600 5 10 0 0 270 0 1
+footprint=ACY900
+}
+N 81100 80600 81100 81900 4
+C 80300 79200 1 270 0 connector2-2.sym
+{
+T 81300 77800 5 10 1 1 90 2 1
+refdes=VSYS2
+T 81550 78900 5 10 0 0 90 8 1
+device=CONNECTOR_2
+T 81750 78900 5 10 0 0 90 8 1
+footprint=XT60
+T 80300 79200 5 10 0 0 90 8 1
+description=$0.80 HobbyKing XT60
+T 80300 79200 5 10 0 0 90 8 1
+value=60A
+T 80300 79200 5 10 0 0 90 2 1
+cost=$0.80
+T 80300 79200 5 10 0 0 90 2 1
+mfr=HobbyKing
+T 80300 79200 5 10 0 0 90 2 1
+mfrpn=XT60
+T 80300 79200 5 10 0 0 90 2 1
+dst=HobbyKing
+T 80300 79200 5 10 0 0 90 2 1
+dstpn=XT60
+T 80300 79200 5 10 0 0 90 2 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 80300 79200 5 10 0 0 90 2 1
+link_page=N/A
+T 80300 79200 5 10 0 0 90 2 1
+supplier=c
+T 80300 79200 5 10 0 0 90 2 1
+kitting=other
+T 80300 79200 5 10 0 0 90 2 1
+kitting_d=not known to be available in machine usable format
+}
+T 80100 78500 9 10 1 0 90 2 1
+XT60
+T 81100 78300 9 10 1 0 90 2 1
++
+T 80600 78300 9 10 1 0 90 2 1
+-
+N 81100 79200 81100 79700 4
+N 80700 79200 80700 85800 4
+T 81500 80700 9 10 1 0 270 0 1
+Thermal Fuse
+T 80800 80800 9 10 1 0 0 0 1
+2m
+T 80800 79300 9 10 1 0 0 0 1
+2m
+T 80300 79600 9 10 1 0 0 0 1
+2m
+N 81100 83300 81100 85800 4
+C 81300 85700 1 90 0 dc-dc.sym
+{
+T 81300 85700 5 10 0 0 0 0 1
+footprint=HEADER2_2
+}
+C 80300 86800 1 270 1 connector2-2.sym
+{
+T 81600 87500 5 10 1 1 90 8 1
+refdes=USB
+T 81550 87100 5 10 0 0 90 2 1
+device=CONNECTOR_2
+T 81750 87100 5 10 0 0 90 2 1
+footprint=SIP2N
+}
+C 76100 77900 1 0 0 connector2-2.sym
+{
+T 76400 79150 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 76400 79350 5 10 0 0 0 0 1
+footprint=XT60
+T 76100 77900 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 76100 77900 5 10 0 0 0 0 1
+value=60A
+T 76100 77900 5 10 0 0 0 6 1
+cost=$0.80
+T 76100 77900 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 76100 77900 5 10 0 0 0 6 1
+mfrpn=XT60
+T 76100 77900 5 10 0 0 0 6 1
+dst=HobbyKing
+T 76100 77900 5 10 0 0 0 6 1
+dstpn=XT60
+T 76100 77900 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 76100 77900 5 10 0 0 0 6 1
+link_page=N/A
+T 76100 77900 5 10 0 0 0 6 1
+supplier=c
+T 76100 77900 5 10 0 0 0 6 1
+kitting=other
+T 76100 77900 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 77500 78900 5 10 1 1 0 6 1
+refdes=VSYS4
+}
+T 77000 78300 9 10 1 0 0 6 1
+-
+N 75600 78300 75600 83200 4
+N 76100 78300 75600 78300 4
+C 76000 84100 1 0 0 generic-power.sym
+{
+T 76200 84350 5 10 1 1 0 3 1
+net=chassis:1
+}
+N 75000 83200 79200 83200 4
+C 77000 84100 1 0 0 generic-power.sym
+{
+T 77200 84350 5 10 1 1 0 3 1
+net=chassis:1
+}
+C 78000 84100 1 0 0 generic-power.sym
+{
+T 78200 84350 5 10 1 1 0 3 1
+net=chassis:1
+}
+C 79000 84100 1 0 0 generic-power.sym
+{
+T 79200 84350 5 10 1 1 0 3 1
+net=chassis:1
+}
+T 75700 79600 9 10 1 0 0 0 1
+1m
+N 79200 83200 79200 84100 4
+N 78200 83200 78200 84100 4
+N 77200 83200 77200 84100 4
+N 76200 83200 76200 84100 4
+T 75900 83600 9 10 1 0 0 0 1
+2m
+T 76900 83600 9 10 1 0 0 0 1
+2m
+T 77900 83600 9 10 1 0 0 0 1
+2m
+T 78900 83600 9 10 1 0 0 0 1
+2m
+C 74800 83200 1 0 0 generic-power.sym
+{
+T 75000 83450 5 10 1 1 0 3 1
+net=chassis:1
+}
+T 76100 82200 9 10 1 0 90 0 1
+Mid-Frame
+T 77200 81700 9 10 1 0 90 0 1
+Z-axis with X-Bar
+T 78200 82100 9 10 1 0 90 0 1
+X-axis truck
+T 79200 81500 9 10 1 0 90 0 1
+Y-axis moving frame
+C 51200 50600 1 0 0 illustration__endpoint_heatsink_typical.sym
+{
+T 52700 51700 5 10 1 1 0 0 1
+refdes=I?
+T 52600 52200 5 10 0 0 0 0 1
+footprint=illustration__endpoint_heatsink_typical
+}
+C 57200 50000 1 90 0 dc-dc.sym
+{
+T 57200 50000 5 10 0 0 0 0 1
+footprint=HEADER2_2
+}
+N 56500 51100 56500 52900 4
+N 57100 51100 57100 51600 4
+N 57100 51600 56600 51600 4
+N 56600 51600 56600 52900 4
+N 56600 50200 56600 50000 4
+N 56600 50000 56200 50000 4
+N 56200 50000 56200 52900 4
+N 57000 50300 57000 49900 4
+N 57000 49900 56100 49900 4
+N 56100 49900 56100 52900 4
+N 55700 51700 55700 52900 4
+N 54300 51500 55800 51500 4
+N 55800 51500 55800 52900 4
+T 52800 50300 9 10 1 0 0 0 2
+Optional 12V DC converter.
+Use Zener diode instead for single fan.
+C 54400 51800 1 0 0 zener-1.sym
+{
+T 54800 52400 5 10 0 0 0 0 1
+device=ZENER_DIODE
+T 54700 52300 5 10 1 1 0 0 1
+refdes=Z1
+T 54400 51800 5 10 1 1 0 0 1
+value=12V 1W
+T 54400 51800 5 10 0 0 0 0 1
+footprint=ALF900
+}
+N 54400 52000 54300 52000 4
+N 54300 52000 54300 51700 4
+N 55700 51700 55500 51700 4
+N 55500 51700 55500 52000 4
+N 55500 52000 55300 52000 4
+C 53200 45500 1 0 1 connector2-2.sym
+{
+T 52900 46750 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 52900 46950 5 10 0 0 0 6 1
+footprint=XT60
+T 53200 45500 5 10 0 0 0 6 1
+description=$0.80 HobbyKing XT60
+T 53200 45500 5 10 0 0 0 6 1
+value=60A
+T 53200 45500 5 10 0 0 0 0 1
+cost=$0.80
+T 53200 45500 5 10 0 0 0 0 1
+mfr=HobbyKing
+T 53200 45500 5 10 0 0 0 0 1
+mfrpn=XT60
+T 53200 45500 5 10 0 0 0 0 1
+dst=HobbyKing
+T 53200 45500 5 10 0 0 0 0 1
+dstpn=XT60
+T 53200 45500 5 10 0 0 0 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 53200 45500 5 10 0 0 0 0 1
+link_page=N/A
+T 53200 45500 5 10 0 0 0 0 1
+supplier=c
+T 53200 45500 5 10 0 0 0 0 1
+kitting=other
+T 53200 45500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+T 51200 46600 5 10 1 1 0 0 1
+refdes=VHEAT2-SLAB
+}
+C 53200 45200 1 0 0 ssrelay-spst-lcb110-1.sym
+{
+T 55300 46775 5 10 0 0 0 0 1
+device=LCB110
+T 53500 46950 5 10 1 1 0 0 1
+refdes=U?
+T 53200 45200 5 10 0 0 0 0 1
+footprint=DIP6
+}
+C 66800 77500 1 0 0 illustration__endpoint_heater_typical.sym
+{
+T 67500 79200 5 10 0 0 0 0 1
+footprint=illustration__endpoint_heater_typical
+T 67600 78600 5 10 1 1 0 0 1
+refdes=I?
+}
+C 69000 78100 1 0 0 connector2-2.sym
+{
+T 69300 79350 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 69300 79550 5 10 0 0 0 0 1
+footprint=XT60
+T 69000 78100 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 69000 78100 5 10 0 0 0 0 1
+value=60A
+T 69000 78100 5 10 0 0 0 6 1
+cost=$0.80
+T 69000 78100 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 69000 78100 5 10 0 0 0 6 1
+mfrpn=XT60
+T 69000 78100 5 10 0 0 0 6 1
+dst=HobbyKing
+T 69000 78100 5 10 0 0 0 6 1
+dstpn=XT60
+T 69000 78100 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 69000 78100 5 10 0 0 0 6 1
+link_page=N/A
+T 69000 78100 5 10 0 0 0 6 1
+supplier=c
+T 69000 78100 5 10 0 0 0 6 1
+kitting=other
+T 69000 78100 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 70600 79100 5 10 1 1 0 6 1
+refdes=VSLAB20
+}
+N 68600 78500 69000 78500 4
+N 68600 78700 69000 78700 4
+N 69000 78700 69000 78900 4
+T 69700 77900 9 10 1 0 0 6 1
+XT60
+T 52400 45900 9 10 1 0 270 2 1
+-
+T 52400 46400 9 10 1 0 270 2 1
++
+C 55800 46300 1 0 0 connector2-2.sym
+{
+T 56100 47550 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 56100 47750 5 10 0 0 0 0 1
+footprint=XT60
+T 55800 46300 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 55800 46300 5 10 0 0 0 0 1
+value=60A
+T 55800 46300 5 10 0 0 0 6 1
+cost=$0.80
+T 55800 46300 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 55800 46300 5 10 0 0 0 6 1
+mfrpn=XT60
+T 55800 46300 5 10 0 0 0 6 1
+dst=HobbyKing
+T 55800 46300 5 10 0 0 0 6 1
+dstpn=XT60
+T 55800 46300 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 55800 46300 5 10 0 0 0 6 1
+link_page=N/A
+T 55800 46300 5 10 0 0 0 6 1
+supplier=c
+T 55800 46300 5 10 0 0 0 6 1
+kitting=other
+T 55800 46300 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 57200 47300 5 10 1 1 0 6 1
+refdes=VSYS3
+}
+T 56700 46700 9 10 1 0 0 6 1
+-
+T 56600 47200 9 10 1 0 270 0 1
++
+C 84300 82500 1 270 0 switch-spst-1.sym
+{
+T 85000 82100 5 10 0 0 270 0 1
+device=SPST
+T 84500 82200 5 10 1 1 270 0 1
+refdes=S1
+T 84300 82500 5 10 0 0 270 0 1
+footprint=HEADER2_2
+}
+C 81100 81500 1 0 0 connector2-2.sym
+{
+T 82400 82500 5 10 1 1 0 6 1
+refdes=VSW1
+T 81400 82750 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 81400 82950 5 10 0 0 0 0 1
+footprint=XT60
+T 81100 81500 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 81100 81500 5 10 0 0 0 0 1
+value=60A
+T 81100 81500 5 10 0 0 0 6 1
+cost=$0.80
+T 81100 81500 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 81100 81500 5 10 0 0 0 6 1
+mfrpn=XT60
+T 81100 81500 5 10 0 0 0 6 1
+dst=HobbyKing
+T 81100 81500 5 10 0 0 0 6 1
+dstpn=XT60
+T 81100 81500 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 81100 81500 5 10 0 0 0 6 1
+link_page=N/A
+T 81100 81500 5 10 0 0 0 6 1
+supplier=c
+T 81100 81500 5 10 0 0 0 6 1
+kitting=other
+T 81100 81500 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+}
+C 83800 81500 1 0 1 connector2-2.sym
+{
+T 82500 82500 5 10 1 1 0 0 1
+refdes=VSW2
+T 83500 82750 5 10 0 0 0 6 1
+device=CONNECTOR_2
+T 83500 82950 5 10 0 0 0 6 1
+footprint=XT60
+T 83800 81500 5 10 0 0 0 6 1
+description=$0.80 HobbyKing XT60
+T 83800 81500 5 10 0 0 0 6 1
+value=60A
+T 83800 81500 5 10 0 0 0 0 1
+cost=$0.80
+T 83800 81500 5 10 0 0 0 0 1
+mfr=HobbyKing
+T 83800 81500 5 10 0 0 0 0 1
+mfrpn=XT60
+T 83800 81500 5 10 0 0 0 0 1
+dst=HobbyKing
+T 83800 81500 5 10 0 0 0 0 1
+dstpn=XT60
+T 83800 81500 5 10 0 0 0 0 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 83800 81500 5 10 0 0 0 0 1
+link_page=N/A
+T 83800 81500 5 10 0 0 0 0 1
+supplier=c
+T 83800 81500 5 10 0 0 0 0 1
+kitting=other
+T 83800 81500 5 10 0 0 0 0 1
+kitting_d=not known to be available in machine usable format
+}
+N 81100 82300 81100 82400 4
+N 84300 82500 84200 82500 4
+N 84300 81700 84200 81700 4
+N 83800 81900 84200 81900 4
+N 84200 81900 84200 81700 4
+N 83800 82300 84200 82300 4
+N 84200 82300 84200 82500 4
+T 83900 82300 9 10 1 0 0 0 1
+2m
+T 83900 81700 9 10 1 0 0 0 1
+2m
+T 81400 81300 9 10 1 0 0 0 1
+XT60
+T 83100 81300 9 10 1 0 0 0 1
+XT60
+T 56100 46100 9 10 1 0 0 0 1
+XT60
+C 55800 44600 1 0 0 connector2-2.sym
+{
+T 56100 45850 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 56100 46050 5 10 0 0 0 0 1
+footprint=XT60
+T 55800 44600 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 55800 44600 5 10 0 0 0 0 1
+value=60A
+T 55800 44600 5 10 0 0 0 6 1
+cost=$0.80
+T 55800 44600 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 55800 44600 5 10 0 0 0 6 1
+mfrpn=XT60
+T 55800 44600 5 10 0 0 0 6 1
+dst=HobbyKing
+T 55800 44600 5 10 0 0 0 6 1
+dstpn=XT60
+T 55800 44600 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 55800 44600 5 10 0 0 0 6 1
+link_page=N/A
+T 55800 44600 5 10 0 0 0 6 1
+supplier=c
+T 55800 44600 5 10 0 0 0 6 1
+kitting=other
+T 55800 44600 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+T 57300 45600 5 10 1 1 0 6 1
+refdes=VSLAB2
+}
+T 56700 45000 9 10 1 0 0 6 1
+-
+T 56600 45500 9 10 1 0 270 0 1
++
+T 69900 78500 9 10 1 0 0 6 1
+-
+T 69800 79000 9 10 1 0 270 0 1
++
+T 56100 44400 9 10 1 0 0 0 1
+XT60
+N 55800 47100 55300 47100 4
+N 55300 47100 55300 46700 4
+N 55800 45400 55300 45400 4
+N 55300 43800 55300 45700 4
+N 55800 46700 55800 46600 4
+N 55800 46600 55900 46600 4
+N 55900 46600 55900 45100 4
+N 55900 45100 55800 45100 4
+N 55800 44900 55800 45100 4
+N 53200 46300 53200 46500 4
+T 53300 47400 9 10 1 0 0 0 6
+Optional Solid-State Relay.
+May be appropriate for
+higher voltage heaters.
+
+Beware risk of short-circuit
+failure.
+C 55800 43000 1 0 0 connector2-2.sym
+{
+T 57300 44000 5 10 1 1 0 6 1
+refdes=VSLAB1
+T 56100 44250 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 56100 44450 5 10 0 0 0 0 1
+footprint=XT60
+T 55800 43000 5 10 0 0 0 0 1
+description=$0.80 HobbyKing XT60
+T 55800 43000 5 10 0 0 0 0 1
+value=60A
+T 55800 43000 5 10 0 0 0 6 1
+cost=$0.80
+T 55800 43000 5 10 0 0 0 6 1
+mfr=HobbyKing
+T 55800 43000 5 10 0 0 0 6 1
+mfrpn=XT60
+T 55800 43000 5 10 0 0 0 6 1
+dst=HobbyKing
+T 55800 43000 5 10 0 0 0 6 1
+dstpn=XT60
+T 55800 43000 5 10 0 0 0 6 1
+link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
+T 55800 43000 5 10 0 0 0 6 1
+link_page=N/A
+T 55800 43000 5 10 0 0 0 6 1
+supplier=c
+T 55800 43000 5 10 0 0 0 6 1
+kitting=other
+T 55800 43000 5 10 0 0 0 6 1
+kitting_d=not known to be available in machine usable format
+}
+T 56700 43400 9 10 1 0 0 6 1
+-
+T 56600 43900 9 10 1 0 270 0 1
++
+T 56100 42800 9 10 1 0 0 0 1
+XT60
+N 55800 43400 55800 43500 4
+N 55800 43500 55900 43500 4
+N 55900 43500 55900 44900 4
+N 55900 44900 55800 44900 4
+N 55300 43800 55800 43800 4
+B 51000 28000 18000 14000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 66700 77200 1 0 0 illustration__endpoint_thermistor_typical.sym
+{
+T 67100 80800 5 10 0 0 0 0 1
+footprint=illustration__endpoint_thermistor_typical
+T 67400 80100 5 10 1 1 0 0 1
+refdes=I?
+}
+B 67000 77700 4500 3000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 51000 42500 6600 6300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 80000 77700 4700 10000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 73600 77700 6200 7100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 26500 46000 1 0 0 GenericRap_Cutdown.sym
+{
+T 29500 52100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 31000 51000 5 10 1 1 0 0 1
+refdes=M?
+T 29500 52500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 73000 64000 1 0 0 GenericRap_Cutdown.sym
+{
+T 76000 70500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+T 76000 70100 5 10 0 0 0 0 1
+footprint=_M2__GenericRap_Cutdown
+T 77500 69000 5 10 1 1 0 0 1
+refdes=M2
+}
+L 90300 67000 92000 67000 3 0 0 0 -1 -1
+L 50500 28000 50300 28000 3 0 0 0 -1 -1
+T 68800 80100 9 10 1 0 0 0 1
+Cat6A/Cat5E
+L 68600 80100 70000 80100 3 0 0 0 -1 -1
+N 42100 60100 42100 61100 4
+N 42100 61100 42000 61100 4
+N 41900 60100 41900 61100 4
+N 41900 61100 41600 61100 4
+C 26500 55000 1 0 0 GenericRap_Cutdown.sym
+{
+T 29500 61100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 31000 60000 5 10 1 1 0 0 1
+refdes=M?
+T 29500 61500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 49500 38200 1 180 0 diode-1.sym
+{
+T 49100 37600 5 10 0 0 180 0 1
+device=DIODE
+T 49200 37800 5 10 1 1 180 0 1
+refdes=D1
+}
+C 48600 38100 1 180 0 io-1.sym
+{
+T 47700 37900 5 10 1 0 180 0 1
+net=Limit_C-Z-min-0:1
+T 48400 37500 5 10 0 0 180 0 1
+device=none
+T 47700 38000 5 10 1 1 180 1 1
+value=IO
+}
+N 49500 38000 53200 38000 4
+N 53200 38000 53200 35100 4
+C 49500 39200 1 180 0 diode-1.sym
+{
+T 49100 38600 5 10 0 0 180 0 1
+device=DIODE
+T 49200 38800 5 10 1 1 180 0 1
+refdes=D2
+}
+C 48600 39100 1 180 0 io-1.sym
+{
+T 48400 38500 5 10 0 0 180 0 1
+device=none
+T 47700 38900 5 10 1 0 180 0 1
+net=Limit_C-Z-min-1:1
+T 47700 39000 5 10 1 1 180 1 1
+value=IO
+}
+N 49500 38000 49500 39000 4
+T 45100 38000 9 10 1 0 0 0 1
+Limit
+T 45000 38800 9 10 1 0 0 0 1
+Probe
+T 46200 39800 9 10 1 0 0 0 4
+Dedicated probes may be used
+by individual tools as well
+if their mounting systems
+provide sufficent rigidity.
+T 31000 50500 9 10 1 0 0 0 1
+Limit
+T 31000 59500 9 10 1 0 0 0 1
+Probe
+N 42100 51100 42100 52100 4
+N 42100 52100 42000 52100 4
+C 42100 61100 1 90 0 io-1.sym
+{
+T 41500 61300 5 10 0 0 90 0 1
+device=none
+T 41900 62000 5 10 1 0 90 0 1
+net=Limit_C-Z-min-1:1
+T 42000 62000 5 10 1 1 90 1 1
+value=IO
+}
+C 41700 61100 1 90 0 io-1.sym
+{
+T 41500 62000 5 10 1 0 90 0 1
+net=Servo_PWM:1
+T 41100 61300 5 10 0 0 90 0 1
+device=none
+T 41600 62000 5 10 1 1 90 1 1
+value=IO
+}
+C 42100 52100 1 90 0 io-1.sym
+{
+T 41900 53000 5 10 1 0 90 0 1
+net=Limit_C-Z-min-0:1
+T 41500 52300 5 10 0 0 90 0 1
+device=none
+T 42000 53000 5 10 1 1 90 1 1
+value=IO
+}
+C 26500 28000 1 0 0 GenericRap_Cutdown.sym
+{
+T 29500 34100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 29500 34500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+T 31000 33000 5 10 1 1 0 0 1
+refdes=M?
+}
+N 42100 33100 42100 34100 4
+N 42100 34100 42000 34100 4
+T 31000 32500 9 10 1 0 0 0 1
+Limit
+C 26500 37000 1 0 0 GenericRap_Cutdown.sym
+{
+T 29500 43100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 29500 43500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+T 31000 42000 5 10 1 1 0 0 1
+refdes=M?
+}
+C 42100 43100 1 90 0 io-1.sym
+{
+T 41900 44000 5 10 1 0 90 0 1
+net=Limit_C-Y-min:1
+T 41500 43300 5 10 0 0 90 0 1
+device=none
+T 42000 44000 5 10 1 1 90 1 1
+value=IO
+}
+C 42100 34100 1 90 0 io-1.sym
+{
+T 41900 35000 5 10 1 0 90 0 1
+net=Limit_C-X-min:1
+T 41500 34300 5 10 0 0 90 0 1
+device=none
+T 42000 35000 5 10 1 1 90 1 1
+value=IO
+}
+N 42100 42100 42100 43100 4
+N 42100 43100 42000 43100 4
+L 25000 56200 26700 56200 3 0 0 0 -1 -1
+L 24900 47200 26600 47200 3 0 0 0 -1 -1
+L 25000 29000 26700 29000 3 0 0 0 -1 -1
+L 25000 38000 26700 38000 3 0 0 0 -1 -1
+C 73000 46000 1 0 0 GenericRap_Cutdown.sym
+{
+T 76000 52100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 77500 51000 5 10 1 1 0 0 1
+refdes=M?
+T 76000 52500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 73000 37000 1 0 0 GenericRap_Cutdown.sym
+{
+T 76000 43100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 77500 42000 5 10 1 1 0 0 1
+refdes=M?
+T 76000 43500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+}
+C 73000 28000 1 0 0 GenericRap_Cutdown.sym
+{
+T 76000 34100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 76000 34500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+T 77500 33000 5 10 1 1 0 0 1
+refdes=M?
+}
+C 73000 55000 1 0 0 GenericRap_Cutdown.sym
+{
+T 76000 61100 5 10 0 0 0 0 1
+footprint=GenericRap_Cutdown
+T 76000 61500 5 10 0 0 0 0 1
+device=GenericRap_Cutdown
+T 77500 60000 5 10 1 1 0 0 1
+refdes=M?
+}
+C 89500 54100 1 0 1 io-1.sym
+{
+T 89300 54700 5 10 0 0 180 2 1
+device=none
+T 88600 54300 5 10 1 0 180 2 1
+net=STEP-Z0-bM:1
+T 88600 54200 5 10 1 1 180 1 1
+value=IO
+}
+C 89500 53700 1 0 1 io-1.sym
+{
+T 89300 54300 5 10 0 0 180 2 1
+device=none
+T 88600 53900 5 10 1 0 180 2 1
+net=STEP-Z0-bP:1
+T 88600 53800 5 10 1 1 180 1 1
+value=IO
+}
+C 89500 53300 1 0 1 io-1.sym
+{
+T 89300 53900 5 10 0 0 180 2 1
+device=none
+T 88600 53500 5 10 1 0 180 2 1
+net=STEP-Z0-aP:1
+T 88600 53400 5 10 1 1 180 1 1
+value=IO
+}
+C 89500 52900 1 0 1 io-1.sym
+{
+T 89300 53500 5 10 0 0 180 2 1
+device=none
+T 88600 53100 5 10 1 0 180 2 1
+net=STEP-Z0-aM:1
+T 88600 53000 5 10 1 1 180 1 1
+value=IO
+}
+T 89300 53200 9 10 1 0 0 2 1
+Red
+T 89300 53600 9 10 1 0 0 2 1
+White
+T 89300 54000 9 10 1 0 0 2 1
+Green
+T 89300 54400 9 10 1 0 0 2 1
+Black
+N 89800 60100 90400 60100 4
+N 90400 51100 90400 60100 4
+N 90400 51100 89800 51100 4
+N 89600 60100 89600 60200 4
+N 89600 60200 90300 60200 4
+N 90300 60200 90300 51200 4
+N 90300 51200 89600 51200 4
+N 89600 51200 89600 51100 4
+N 89400 60100 89400 60300 4
+N 89400 60300 90200 60300 4
+N 90200 60300 90200 51300 4
+N 90200 51300 89400 51300 4
+N 89400 51300 89400 51100 4
+N 89200 60100 89200 60400 4
+N 89200 60400 90100 60400 4
+N 90100 60400 90100 51400 4
+N 90100 51400 89200 51400 4
+N 89200 51400 89200 51100 4
+N 89500 53000 90200 53000 4
+N 89500 53400 90300 53400 4
+N 89500 53800 90400 53800 4
+N 89500 54200 90100 54200 4
+T 91600 51900 9 10 1 0 90 0 3
+Series wiring was considered... at full speed it seemed
+likely leakage inductance would exhaust ~36V stepper
+driving voltage sooner than driving current 2A total.
+L 45800 30200 45800 28700 3 0 0 0 -1 -1
+L 45800 28700 49800 28700 3 0 0 0 -1 -1
+L 70600 28600 71100 28600 3 0 0 0 -1 -1
+L 71100 28600 71100 32600 3 0 0 0 -1 -1
+T 46400 28800 9 10 1 0 0 0 1
+Connect breadboard Vsys/Vee power rails.
+T 71200 32300 9 10 1 0 270 0 1
+Connect breadboard Vsys/Vee power rails.
+C 88900 34300 1 90 0 io-1.sym
+{
+T 88300 34500 5 10 0 0 90 0 1
+device=none
+T 88700 35200 5 10 1 0 90 0 1
+net=STEP-X-bM:1
+T 88800 35200 5 10 1 1 90 1 1
+value=IO
+}
+C 90100 34300 1 90 0 io-1.sym
+{
+T 89500 34500 5 10 0 0 90 0 1
+device=none
+T 89900 35200 5 10 1 0 90 0 1
+net=STEP-X-bP:1
+T 90000 35200 5 10 1 1 90 1 1
+value=IO
+}
+C 89700 34300 1 90 0 io-1.sym
+{
+T 89100 34500 5 10 0 0 90 0 1
+device=none
+T 89500 35200 5 10 1 0 90 0 1
+net=STEP-X-aP:1
+T 89600 35200 5 10 1 1 90 1 1
+value=IO
+}
+C 89300 34300 1 90 0 io-1.sym
+{
+T 88700 34500 5 10 0 0 90 0 1
+device=none
+T 89100 35200 5 10 1 0 90 0 1
+net=STEP-X-aM:1
+T 89200 35200 5 10 1 1 90 1 1
+value=IO
+}
+T 89000 34500 9 10 1 0 270 0 1
+Red
+T 89400 34500 9 10 1 0 270 0 1
+White
+T 89800 34500 9 10 1 0 270 0 1
+Green
+T 88600 34500 9 10 1 0 270 0 1
+Black
+N 88800 34300 88800 33800 4
+N 88800 33800 89200 33800 4
+N 89200 33800 89200 33100 4
+N 89800 33100 89800 33800 4
+N 89800 33800 90000 33800 4
+N 90000 33800 90000 34300 4
+N 89600 34300 89600 33100 4
+N 89400 33100 89400 33900 4
+N 89400 33900 89200 33900 4
+N 89200 33900 89200 34300 4
+C 88900 43300 1 90 0 io-1.sym
+{
+T 88300 43500 5 10 0 0 90 0 1
+device=none
+T 88700 44200 5 10 1 0 90 0 1
+net=STEP-X-bM:1
+T 88800 44200 5 10 1 1 90 1 1
+value=IO
+}
+C 90100 43300 1 90 0 io-1.sym
+{
+T 89500 43500 5 10 0 0 90 0 1
+device=none
+T 89900 44200 5 10 1 0 90 0 1
+net=STEP-X-bP:1
+T 90000 44200 5 10 1 1 90 1 1
+value=IO
+}
+C 89700 43300 1 90 0 io-1.sym
+{
+T 89100 43500 5 10 0 0 90 0 1
+device=none
+T 89500 44200 5 10 1 0 90 0 1
+net=STEP-X-aP:1
+T 89600 44200 5 10 1 1 90 1 1
+value=IO
+}
+C 89300 43300 1 90 0 io-1.sym
+{
+T 88700 43500 5 10 0 0 90 0 1
+device=none
+T 89100 44200 5 10 1 0 90 0 1
+net=STEP-X-aM:1
+T 89200 44200 5 10 1 1 90 1 1
+value=IO
+}
+T 89000 43500 9 10 1 0 270 0 1
+Red
+T 89400 43500 9 10 1 0 270 0 1
+White
+T 89800 43500 9 10 1 0 270 0 1
+Green
+T 88600 43500 9 10 1 0 270 0 1
+Black
+N 89600 43300 89600 42100 4
+N 89400 42100 89400 42900 4
+N 89400 42900 89200 42900 4
+N 89200 42900 89200 43300 4
+N 88800 43300 88800 42800 4
+N 88800 42800 89200 42800 4
+N 89200 42800 89200 42100 4
+N 89800 42100 89800 42800 4
+N 89800 42800 90000 42800 4
+N 90000 42800 90000 43300 4
+C 89300 70300 1 90 0 io-1.sym
+{
+T 88700 70500 5 10 0 0 90 0 1
+device=none
+T 89100 71200 5 10 1 0 90 0 1
+net=STEP-E0-aM:1
+T 89200 71200 5 10 1 1 90 1 1
+value=IO
+}
+C 89700 70300 1 90 0 io-1.sym
+{
+T 89100 70500 5 10 0 0 90 0 1
+device=none
+T 89500 71200 5 10 1 0 90 0 1
+net=STEP-E0-aP:1
+T 89600 71200 5 10 1 1 90 1 1
+value=IO
+}
+C 90100 70300 1 90 0 io-1.sym
+{
+T 89500 70500 5 10 0 0 90 0 1
+device=none
+T 89900 71200 5 10 1 0 90 0 1
+net=STEP-E0-bP:1
+T 90000 71200 5 10 1 1 90 1 1
+value=IO
+}
+C 88900 70300 1 90 0 io-1.sym
+{
+T 88300 70500 5 10 0 0 90 0 1
+device=none
+T 88700 71200 5 10 1 0 90 0 1
+net=STEP-E0-bM:1
+T 88800 71200 5 10 1 1 90 1 1
+value=IO
+}
+T 88600 70500 9 10 1 0 270 0 1
+Black
+T 89800 70500 9 10 1 0 270 0 1
+Green
+T 89400 70500 9 10 1 0 270 0 1
+White
+T 89000 70500 9 10 1 0 270 0 1
+Red
+N 89600 70300 89600 69100 4
+N 89400 69100 89400 69900 4
+N 89400 69900 89200 69900 4
+N 89200 69900 89200 70300 4
+N 88800 70300 88800 69800 4
+N 88800 69800 89200 69800 4
+N 89200 69800 89200 69100 4
+N 89800 69100 89800 69800 4
+N 89800 69800 90000 69800 4
+N 90000 69800 90000 70300 4
+L 90300 58000 92000 58000 3 0 0 0 -1 -1
+L 90300 40000 92000 40000 3 0 0 0 -1 -1
+L 90300 31000 92000 31000 3 0 0 0 -1 -1
+B 25800 27400 65000 49000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+C 59200 75900 1 270 0 GenericRap.sym
+{
+T 65700 72900 5 10 0 0 270 0 1
+device=GenericRap
+T 65300 72900 5 10 0 0 270 0 1
+footprint=_M1__GenericRap_WireShield
+T 64200 71400 5 10 1 1 270 0 1
+refdes=M1
+}
+L 60200 77400 60200 75700 3 0 0 0 -1 -1
+C 58700 58700 1 270 1 gnd-1.sym
+N 59100 59100 59600 59100 4
+N 59100 59100 59100 58500 4
+N 59600 59300 59000 59300 4
+N 59000 59300 59000 58800 4
+N 59100 59600 59300 59600 4
+N 59300 59600 59300 59700 4
+N 59300 59700 59600 59700 4
+N 59300 60300 59600 60300 4
+N 59300 60300 59300 60900 4
+N 59300 60900 59100 60900 4
+C 49900 59000 1 270 0 io-1.sym
+{
+T 50500 58800 5 10 0 0 270 0 1
+device=none
+T 50100 58100 5 10 1 0 270 0 1
+net=Thermistor-Slab:1
+T 50000 58100 5 10 1 1 270 1 1
+value=IO
+}
+N 50600 59100 50000 59100 4
+N 50000 59100 50000 59000 4
+L 51300 77400 51300 75700 3 0 0 0 -1 -1
+C 56100 57600 1 0 1 gnd-1.sym
+C 55800 58000 1 180 0 Vext.sym
+{
+T 55800 57700 5 10 0 1 180 0 1
+device=Vext
+}
+N 55600 58000 55600 59900 4
+N 55600 59900 55300 59900 4
+N 56000 57900 56000 60100 4
+N 56000 60100 55300 60100 4
+L 65500 75800 65500 76200 3 0 0 0 -1 -1
+L 65800 75800 65800 76200 3 0 0 0 -1 -1
+L 66100 75800 66100 76200 3 0 0 0 -1 -1
+L 66400 75800 66400 76200 3 0 0 0 -1 -1
+C 65100 57600 1 0 1 gnd-1.sym
+C 64800 58000 1 180 0 Vext.sym
+{
+T 64800 57700 5 10 0 1 180 0 1
+device=Vext
+}
+N 64600 58000 64600 59900 4
+N 64600 59900 64300 59900 4
+N 65000 57900 65000 60100 4
+N 65000 60100 64300 60100 4
+C 50200 75900 1 270 0 GenericRap_Cutdown.sym
+{
+T 56300 72900 5 10 0 0 270 0 1
+footprint=GenericRap_Cutdown
+T 56700 72900 5 10 0 0 270 0 1
+device=GenericRap_Cutdown
+T 55200 71400 5 10 1 1 270 0 1
+refdes=M?
+}
+T 54700 71400 9 10 1 0 270 0 1
+Slab Thermistor
+C 58600 39700 1 90 0 io-1.sym
+{
+T 58000 39900 5 10 0 0 90 0 1
+device=none
+T 58400 40600 5 10 1 0 90 0 1
+net=Heat1:1
+T 58500 40600 5 10 1 1 90 1 1
+value=IO
+}
+C 59100 59700 1 180 0 io-1.sym
+{
+T 58900 59100 5 10 0 0 180 0 1
+device=none
+T 58200 59500 5 10 1 0 180 0 1
+net=Heat1:1
+T 58200 59600 5 10 1 1 180 1 1
+value=IO
+}
+C 59100 61000 1 180 0 io-1.sym
+{
+T 58900 60400 5 10 0 0 180 0 1
+device=none
+T 58200 60800 5 10 1 0 180 0 1
+net=Cooling1:1
+T 58200 60900 5 10 1 1 180 1 1
+value=IO
+}
+C 59100 58600 1 180 0 io-1.sym
+{
+T 58200 58400 5 10 1 0 180 0 1
+net=Thermistor-T0:1
+T 58900 58000 5 10 0 0 180 0 1
+device=none
+T 58200 58500 5 10 1 1 180 1 1
+value=IO
+}
+C 56000 39700 1 90 0 io-1.sym
+{
+T 55400 39900 5 10 0 0 90 0 1
+device=none
+T 55800 40600 5 10 1 0 90 0 1
+net=Heat0:1
+T 55900 40600 5 10 1 1 90 1 1
+value=IO
+}
+L 76700 78500 77100 78500 3 0 0 0 -1 -1
+L 77100 78500 77100 76200 3 0 0 0 -1 -1
+L 80900 78600 80900 76200 3 0 0 0 -1 -1
+L 69600 78700 71800 78700 3 0 0 0 -1 -1
+L 71800 78700 71800 76200 3 0 0 0 -1 -1
+L 89800 49000 91500 49000 3 0 0 0 -1 -1
+T 58300 79200 9 10 1 0 0 0 11
+Use two junction boxes.
+
+Motherboard and patches are in oil-filled
+or water cooled junction box with only a
+1.5-inch conduit for cable entry.
+
+Smaller junction box is connected by conduit,
+filled with all cables and waterproof sealant.
+
+Any unintentional drainage of coolant fluid
+should first show up in the smaller box.

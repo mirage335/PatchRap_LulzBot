@@ -1,0 +1,11 @@
+elements-dir ./_out_PatchRap_symbols/footprints
+elements-dir ./_out_PatchRap_breakouts/footprints
+
+elements-dir ./_out_PatchRap_symbols_reduced/footprints
+
+
+
+elements-dir ./gedasymbols/footprints
+elements-dir ./customParts/footprints
+schematics _pr-rambo.sch
+output-name _pr-rambo
