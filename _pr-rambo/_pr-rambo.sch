@@ -67,22 +67,22 @@ T 64100 35700 5 10 0 1 180 0 1
 device=Vext
 }
 C 63300 35700 1 0 0 gnd-1.sym
-C 52900 35100 1 90 0 io-1.sym
+C 52900 35400 1 90 0 io-1.sym
 {
-T 52700 36000 5 10 1 0 90 0 1
+T 52700 36300 5 10 1 0 90 0 1
 net=Limit_C-Y-min:1
-T 52300 35300 5 10 0 0 90 0 1
+T 52300 35600 5 10 0 0 90 0 1
 device=none
-T 52800 36000 5 10 1 1 90 1 1
+T 52800 36300 5 10 1 1 90 1 1
 value=IO
 }
-C 52500 35100 1 90 0 io-1.sym
+C 52500 35400 1 90 0 io-1.sym
 {
-T 52300 36000 5 10 1 0 90 0 1
+T 52300 36300 5 10 1 0 90 0 1
 net=Limit_C-X-min:1
-T 51900 35300 5 10 0 0 90 0 1
+T 51900 35600 5 10 0 0 90 0 1
 device=none
-T 52400 36000 5 10 1 1 90 1 1
+T 52400 36300 5 10 1 1 90 1 1
 value=IO
 }
 C 54100 30700 1 270 0 io-1.sym
@@ -349,31 +349,31 @@ T 65500 30500 9 10 1 0 90 0 1
 Green
 T 65900 30500 9 10 1 0 90 0 1
 Black
-C 53300 34700 1 90 1 io-1.sym
+C 53300 34400 1 90 1 io-1.sym
 {
-T 52700 34500 5 10 0 0 270 2 1
+T 52700 34200 5 10 0 0 270 2 1
 device=none
-T 53100 33800 5 10 1 0 270 2 1
+T 53100 33500 5 10 1 0 270 2 1
 net=Limit_C-Z-max:1
-T 53200 33800 5 10 1 1 270 1 1
+T 53200 33500 5 10 1 1 270 1 1
 value=IO
 }
-C 52900 34700 1 90 1 io-1.sym
+C 52900 34400 1 90 1 io-1.sym
 {
-T 52300 34500 5 10 0 0 270 2 1
+T 52300 34200 5 10 0 0 270 2 1
 device=none
-T 52700 33800 5 10 1 0 270 2 1
+T 52700 33500 5 10 1 0 270 2 1
 net=Limit_C-Y-max:1
-T 52800 33800 5 10 1 1 270 1 1
+T 52800 33500 5 10 1 1 270 1 1
 value=IO
 }
-C 52500 34700 1 90 1 io-1.sym
+C 52500 34400 1 90 1 io-1.sym
 {
-T 51900 34500 5 10 0 0 270 2 1
+T 51900 34200 5 10 0 0 270 2 1
 device=none
-T 52300 33800 5 10 1 0 270 2 1
+T 52300 33500 5 10 1 0 270 2 1
 net=Limit_C-X-max:1
-T 52400 33800 5 10 1 1 270 1 1
+T 52400 33500 5 10 1 1 270 1 1
 value=IO
 }
 T 65600 33600 9 10 1 0 0 0 1
@@ -497,7 +497,7 @@ kitting=other
 T 61500 39700 5 10 0 0 90 6 1
 kitting_d=not known to be available in machine usable format
 T 60400 41700 5 10 1 1 90 6 1
-refdes=VHEAT1-SLAB
+refdes=VHEATSLAB1
 }
 T 61700 40500 9 10 1 0 90 6 1
 XT60
@@ -513,7 +513,7 @@ C 75200 82600 1 0 1 voltage-3.sym
 T 75000 83300 5 8 0 0 0 6 1
 device=VOLTAGE_SOURCE
 T 74900 83100 5 10 1 1 0 6 1
-refdes=24vPSU
+refdes=PSU1
 T 75200 82600 5 10 0 0 0 6 1
 footprint=ACY100P
 }
@@ -690,7 +690,7 @@ refdes=USBPWR1
 T 81550 87100 5 10 0 0 90 2 1
 device=CONNECTOR_2
 T 81750 87100 5 10 0 0 90 2 1
-footprint=SIP2
+footprint=HEADER2_2
 }
 C 76100 77900 1 0 0 connector2-2.sym
 {
@@ -854,7 +854,7 @@ kitting=other
 T 53200 45500 5 10 0 0 0 0 1
 kitting_d=not known to be available in machine usable format
 T 51200 46600 5 10 1 1 0 0 1
-refdes=VHEAT2-SLAB
+refdes=VHEATSLAB2
 }
 C 53200 45200 1 0 0 ssrelay-spst-lcb110-1.sym
 {
@@ -1213,7 +1213,7 @@ T 47700 38000 5 10 1 1 180 1 1
 value=IO
 }
 N 49500 38000 53200 38000 4
-N 53200 38000 53200 35100 4
+N 53200 38000 53200 35400 4
 C 49500 39200 1 180 0 diode-1.sym
 {
 T 49100 38600 5 10 0 0 180 0 1
@@ -1764,4 +1764,268 @@ T 68000 46300 5 10 0 0 0 0 1
 footprint=breadboard
 T 68300 46100 5 10 1 1 0 0 1
 refdes=I12
+}
+C 52900 31600 1 270 0 terminal-1.sym
+{
+T 53650 31290 5 10 0 0 270 0 1
+device=terminal
+T 53500 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 52950 31350 5 10 1 1 270 6 1
+refdes=T1
+T 52700 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 53300 31600 1 270 0 terminal-1.sym
+{
+T 54050 31290 5 10 0 0 270 0 1
+device=terminal
+T 53900 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 53350 31350 5 10 1 1 270 6 1
+refdes=T2
+T 53100 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 53700 31600 1 270 0 terminal-1.sym
+{
+T 54450 31290 5 10 0 0 270 0 1
+device=terminal
+T 54300 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 53750 31350 5 10 1 1 270 6 1
+refdes=T3
+T 53500 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 54100 31600 1 270 0 terminal-1.sym
+{
+T 54850 31290 5 10 0 0 270 0 1
+device=terminal
+T 54700 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 54150 31350 5 10 1 1 270 6 1
+refdes=T4
+T 53900 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 55400 31600 1 270 0 terminal-1.sym
+{
+T 56150 31290 5 10 0 0 270 0 1
+device=terminal
+T 56000 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 55450 31350 5 10 1 1 270 6 1
+refdes=T5
+T 55200 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 55800 31600 1 270 0 terminal-1.sym
+{
+T 56550 31290 5 10 0 0 270 0 1
+device=terminal
+T 56400 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 55850 31350 5 10 1 1 270 6 1
+refdes=T6
+T 55600 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 56200 31600 1 270 0 terminal-1.sym
+{
+T 56950 31290 5 10 0 0 270 0 1
+device=terminal
+T 56800 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 56250 31350 5 10 1 1 270 6 1
+refdes=T7
+T 56000 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 56600 31600 1 270 0 terminal-1.sym
+{
+T 57350 31290 5 10 0 0 270 0 1
+device=terminal
+T 57200 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 56650 31350 5 10 1 1 270 6 1
+refdes=T8
+T 56400 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 57900 31600 1 270 0 terminal-1.sym
+{
+T 58650 31290 5 10 0 0 270 0 1
+device=terminal
+T 58500 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 57950 31350 5 10 1 1 270 6 1
+refdes=T9
+T 57700 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 58300 31600 1 270 0 terminal-1.sym
+{
+T 59050 31290 5 10 0 0 270 0 1
+device=terminal
+T 58900 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 58350 31350 5 10 1 1 270 6 1
+refdes=T10
+T 58100 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 58700 31600 1 270 0 terminal-1.sym
+{
+T 59450 31290 5 10 0 0 270 0 1
+device=terminal
+T 59300 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 58750 31350 5 10 1 1 270 6 1
+refdes=T11
+T 58500 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 59100 31600 1 270 0 terminal-1.sym
+{
+T 59850 31290 5 10 0 0 270 0 1
+device=terminal
+T 59700 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 59150 31350 5 10 1 1 270 6 1
+refdes=T12
+T 58900 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 59900 31600 1 270 0 terminal-1.sym
+{
+T 60650 31290 5 10 0 0 270 0 1
+device=terminal
+T 60500 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 59950 31350 5 10 1 1 270 6 1
+refdes=T13
+T 59700 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 60300 31600 1 270 0 terminal-1.sym
+{
+T 61050 31290 5 10 0 0 270 0 1
+device=terminal
+T 60900 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 60350 31350 5 10 1 1 270 6 1
+refdes=T14
+T 60100 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 60700 31600 1 270 0 terminal-1.sym
+{
+T 61450 31290 5 10 0 0 270 0 1
+device=terminal
+T 61300 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 60750 31350 5 10 1 1 270 6 1
+refdes=T15
+T 60500 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 61100 31600 1 270 0 terminal-1.sym
+{
+T 61850 31290 5 10 0 0 270 0 1
+device=terminal
+T 61700 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 61150 31350 5 10 1 1 270 6 1
+refdes=T16
+T 60900 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 62400 31600 1 270 0 terminal-1.sym
+{
+T 63150 31290 5 10 0 0 270 0 1
+device=terminal
+T 63000 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 62450 31350 5 10 1 1 270 6 1
+refdes=T17
+T 62200 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 62800 31600 1 270 0 terminal-1.sym
+{
+T 63550 31290 5 10 0 0 270 0 1
+device=terminal
+T 63400 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 62850 31350 5 10 1 1 270 6 1
+refdes=T18
+T 62600 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 63200 31600 1 270 0 terminal-1.sym
+{
+T 63950 31290 5 10 0 0 270 0 1
+device=terminal
+T 63800 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 63250 31350 5 10 1 1 270 6 1
+refdes=T19
+T 63000 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 63600 31600 1 270 0 terminal-1.sym
+{
+T 64350 31290 5 10 0 0 270 0 1
+device=terminal
+T 64200 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 63650 31350 5 10 1 1 270 6 1
+refdes=T20
+T 63400 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 64400 31600 1 270 0 terminal-1.sym
+{
+T 65150 31290 5 10 0 0 270 0 1
+device=terminal
+T 65000 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 64450 31350 5 10 1 1 270 6 1
+refdes=T21
+T 64200 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 64800 31600 1 270 0 terminal-1.sym
+{
+T 65550 31290 5 10 0 0 270 0 1
+device=terminal
+T 65400 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 64850 31350 5 10 1 1 270 6 1
+refdes=T22
+T 64600 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 65200 31600 1 270 0 terminal-1.sym
+{
+T 65950 31290 5 10 0 0 270 0 1
+device=terminal
+T 65800 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 65250 31350 5 10 1 1 270 6 1
+refdes=T23
+T 65000 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
+}
+C 65600 31600 1 270 0 terminal-1.sym
+{
+T 66350 31290 5 10 0 0 270 0 1
+device=terminal
+T 66200 31290 5 10 0 0 270 0 1
+footprint=CONNECTOR 1 1
+T 65650 31350 5 10 1 1 270 6 1
+refdes=T24
+T 65400 31500 5 10 0 0 270 0 1
+footprint=JUMPER1
 }
