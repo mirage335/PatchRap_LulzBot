@@ -6,44 +6,44 @@ footprint=rambo12
 T 54700 34600 5 10 1 1 0 0 1
 refdes=I1
 }
-C 66300 38500 1 0 1 connector2-2.sym
+C 65900 38500 1 0 0 connector2-2.sym
 {
-T 66000 39750 5 10 0 0 0 6 1
+T 66200 39750 5 10 0 0 0 0 1
 device=CONNECTOR_2
-T 66000 39950 5 10 0 0 0 6 1
+T 66200 39950 5 10 0 0 0 0 1
 footprint=XT60
-T 66300 38500 5 10 0 0 0 6 1
+T 65900 38500 5 10 0 0 0 0 1
 description=$0.80 HobbyKing XT60
-T 66300 38500 5 10 0 0 0 6 1
+T 65900 38500 5 10 0 0 0 0 1
 value=60A
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 cost=$0.80
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 mfr=HobbyKing
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 mfrpn=XT60
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 dst=HobbyKing
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 dstpn=XT60
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 link=www.hobbyking.com/hobbyking/store/__9572__Nylon_XT60_Connectors_Male_Female_5_pairs_GENUINE.html
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 link_page=N/A
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 supplier=c
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 kitting=other
-T 66300 38500 5 10 0 0 0 0 1
+T 65900 38500 5 10 0 0 0 6 1
 kitting_d=not known to be available in machine usable format
-T 64900 39500 5 10 1 1 0 0 1
+T 67300 39500 5 10 1 1 0 6 1
 refdes=VSYS1
 }
-T 65600 38300 9 10 1 0 0 0 1
+T 66600 38300 9 10 1 0 0 6 1
 XT60
-T 65000 39300 9 10 1 0 0 0 1
+T 67200 39300 9 10 1 0 0 6 1
 Vsys
-T 65100 38800 9 10 1 0 0 0 1
+T 67100 38800 9 10 1 0 0 6 1
 Vee
 C 66000 33600 1 0 0 io-1.sym
 {
@@ -1196,6 +1196,8 @@ T 49100 37600 5 10 0 0 180 0 1
 device=DIODE
 T 49200 37800 5 10 1 1 180 0 1
 refdes=D1
+T 49500 38200 5 10 1 0 0 0 1
+footprint=ALF900
 }
 C 48600 38100 1 180 0 io-1.sym
 {
@@ -1214,6 +1216,8 @@ T 49100 38600 5 10 0 0 180 0 1
 device=DIODE
 T 49200 38800 5 10 1 1 180 0 1
 refdes=D2
+T 49500 39200 5 10 1 0 0 0 1
+footprint=ALF900
 }
 C 48600 39100 1 180 0 io-1.sym
 {
@@ -1418,7 +1422,7 @@ N 89500 54200 90100 54200 4
 T 91600 51900 9 10 1 0 90 0 3
 Series wiring was considered... at full speed it seemed
 likely leakage inductance would exhaust ~36V stepper
-driving voltage sooner than driving current 2A total.
+driving voltage sooner than driving current ~2A total.
 L 45800 30200 45800 28700 3 0 0 0 -1 -1
 L 45800 28700 49800 28700 3 0 0 0 -1 -1
 L 70600 28600 71100 28600 3 0 0 0 -1 -1
@@ -1712,20 +1716,18 @@ L 80900 78600 80900 76200 3 0 0 0 -1 -1
 L 69600 78700 71800 78700 3 0 0 0 -1 -1
 L 71800 78700 71800 76200 3 0 0 0 -1 -1
 L 89800 49000 91500 49000 3 0 0 0 -1 -1
-T 58300 79200 9 10 1 0 0 0 13
-Use two junction boxes.
+T 93900 27200 9 10 1 0 0 0 11
+Use multiple junction boxes. Some of this circuitry may require
+expensive immerision cooling, some may not.
 
-Motherboard and patches are in oil-filled
-or water cooled junction box with only a
-1.5-inch conduit for cable entry.
+Hermetically sealed wire feedthroughs may be required.
 
-Smaller junction box is connected by conduit,
-filled with all cables and waterproof sealant.
+Rectangular 3D printed standoff plates and gaskets may thread metric
+machine screws deeply into plastic holes, satisfying all requirements for
+for hermetical seal around all penetrations and lack of exposed metal.
 
-Any unintentional drainage of coolant fluid
-should first show up in the smaller box.
-
-Panel may be mounted to small junction box.
+A custom reinforcement metal plate on the inside may reduce the number of
+screws required to maintain sufficient pressure across a large gasket.
 L 51500 36700 50700 36700 3 0 0 0 -1 -1
 L 50700 36700 50700 26500 3 0 0 0 -1 -1
 T 50200 26500 9 10 1 0 0 0 1
@@ -1735,3 +1737,13 @@ L 61100 31700 50800 31700 3 0 0 0 -1 -1
 L 50800 31700 50800 26500 3 0 0 0 -1 -1
 T 50900 26500 9 10 1 0 0 0 1
 Panel
+T 56600 42300 9 10 1 0 0 0 1
+63mm/2.5in
+T 57800 42600 9 10 1 0 90 0 1
+44mm/1.75in
+T 67700 27800 9 10 1 0 0 0 1
+110mm/4.375in
+T 69200 28100 9 10 1 0 90 0 1
+105mm/4.125in
+T 88000 26600 9 10 1 0 0 0 1
+<60mm combined cable diameter
