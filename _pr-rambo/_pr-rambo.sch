@@ -54,12 +54,12 @@ device=none
 T 66900 33700 5 10 1 1 0 1 1
 value=IO
 }
-C 55500 52700 1 0 0 illustration_breadboard.sym
+C 62400 45600 1 0 0 illustration_breadboard.sym
 {
-T 55600 53400 5 10 0 0 0 0 1
+T 62500 46300 5 10 0 0 0 0 1
 footprint=breadboard
-T 55900 53200 5 10 1 1 0 0 1
-refdes=I2
+T 62800 46100 5 10 1 1 0 0 1
+refdes=I10
 }
 C 64100 36000 1 180 0 Vext.sym
 {
@@ -619,7 +619,7 @@ C 81100 80600 1 270 0 fuse-1.sym
 T 81500 80400 5 10 0 0 270 0 1
 device=FUSE
 T 81300 80400 5 10 1 1 270 0 1
-refdes=F?
+refdes=F2
 T 81700 80400 5 10 0 0 270 0 1
 symversion=0.1
 T 81100 80600 5 10 0 0 270 0 1
@@ -680,15 +680,17 @@ C 81300 85700 1 90 0 dc-dc.sym
 {
 T 81300 85700 5 10 0 0 0 0 1
 footprint=HEADER2_2
+T 81300 85700 5 10 1 1 0 0 1
+refdes=I30
 }
 C 80300 86800 1 270 1 connector2-2.sym
 {
 T 81600 87500 5 10 1 1 90 8 1
-refdes=USB
+refdes=USBPWR1
 T 81550 87100 5 10 0 0 90 2 1
 device=CONNECTOR_2
 T 81750 87100 5 10 0 0 90 2 1
-footprint=SIP2N
+footprint=SIP2
 }
 C 76100 77900 1 0 0 connector2-2.sym
 {
@@ -775,50 +777,52 @@ T 78200 82100 9 10 1 0 90 0 1
 X-axis truck
 T 79200 81500 9 10 1 0 90 0 1
 Y-axis moving frame
-C 51200 50600 1 0 0 illustration__endpoint_heatsink_typical.sym
+C 58100 43500 1 0 0 illustration__endpoint_heatsink_typical.sym
 {
-T 52700 51700 5 10 1 1 0 0 1
-refdes=I?
-T 52600 52200 5 10 0 0 0 0 1
+T 59600 44600 5 10 1 1 0 0 1
+refdes=I20
+T 59500 45100 5 10 0 0 0 0 1
 footprint=illustration__endpoint_heatsink_typical
 }
-C 57200 50000 1 90 0 dc-dc.sym
+C 64100 42900 1 90 0 dc-dc.sym
 {
-T 57200 50000 5 10 0 0 0 0 1
+T 64100 42900 5 10 0 0 0 0 1
 footprint=HEADER2_2
+T 64100 42900 5 10 1 0 0 0 1
+refdes=I21
 }
-N 56500 51100 56500 52900 4
-N 57100 51100 57100 51600 4
-N 57100 51600 56600 51600 4
-N 56600 51600 56600 52900 4
-N 56600 50200 56600 50000 4
-N 56600 50000 56200 50000 4
-N 56200 50000 56200 52900 4
-N 57000 50300 57000 49900 4
-N 57000 49900 56100 49900 4
-N 56100 49900 56100 52900 4
-N 55700 51700 55700 52900 4
-N 54300 51500 55800 51500 4
-N 55800 51500 55800 52900 4
-T 52800 50300 9 10 1 0 0 0 2
+N 63400 44000 63400 45800 4
+N 64000 44000 64000 44500 4
+N 64000 44500 63500 44500 4
+N 63500 44500 63500 45800 4
+N 63500 43100 63500 42900 4
+N 63500 42900 63100 42900 4
+N 63100 42900 63100 45800 4
+N 63900 43200 63900 42800 4
+N 63900 42800 63000 42800 4
+N 63000 42800 63000 45800 4
+N 62600 44600 62600 45800 4
+N 61200 44400 62700 44400 4
+N 62700 44400 62700 45800 4
+T 59700 43200 9 10 1 0 0 0 2
 Optional 12V DC converter.
 Use Zener diode instead for single fan.
-C 54400 51800 1 0 0 zener-1.sym
+C 61300 44700 1 0 0 zener-1.sym
 {
-T 54800 52400 5 10 0 0 0 0 1
+T 61700 45300 5 10 0 0 0 0 1
 device=ZENER_DIODE
-T 54700 52300 5 10 1 1 0 0 1
+T 61600 45200 5 10 1 1 0 0 1
 refdes=Z1
-T 54400 51800 5 10 1 1 0 0 1
+T 61300 44700 5 10 1 1 0 0 1
 value=12V 1W
-T 54400 51800 5 10 0 0 0 0 1
+T 61300 44700 5 10 0 0 0 0 1
 footprint=ALF900
 }
-N 54400 52000 54300 52000 4
-N 54300 52000 54300 51700 4
-N 55700 51700 55500 51700 4
-N 55500 51700 55500 52000 4
-N 55500 52000 55300 52000 4
+N 61300 44900 61200 44900 4
+N 61200 44900 61200 44600 4
+N 62600 44600 62400 44600 4
+N 62400 44600 62400 44900 4
+N 62400 44900 62200 44900 4
 C 53200 45500 1 0 1 connector2-2.sym
 {
 T 52900 46750 5 10 0 0 0 6 1
@@ -857,7 +861,7 @@ C 53200 45200 1 0 0 ssrelay-spst-lcb110-1.sym
 T 55300 46775 5 10 0 0 0 0 1
 device=LCB110
 T 53500 46950 5 10 1 1 0 0 1
-refdes=U?
+refdes=U1
 T 53200 45200 5 10 0 0 0 0 1
 footprint=DIP6
 }
@@ -866,7 +870,7 @@ C 66800 77500 1 0 0 illustration__endpoint_heater_typical.sym
 T 67500 79200 5 10 0 0 0 0 1
 footprint=illustration__endpoint_heater_typical
 T 67600 78600 5 10 1 1 0 0 1
-refdes=I?
+refdes=I50
 }
 C 69000 78100 1 0 0 connector2-2.sym
 {
@@ -1149,7 +1153,7 @@ C 66700 77200 1 0 0 illustration__endpoint_thermistor_typical.sym
 T 67100 80800 5 10 0 0 0 0 1
 footprint=illustration__endpoint_thermistor_typical
 T 67400 80100 5 10 1 1 0 0 1
-refdes=I?
+refdes=I51
 }
 B 67000 77700 4500 3000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 B 51000 42500 6600 6300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -1160,7 +1164,7 @@ C 26500 46000 1 0 0 GenericRap_Cutdown.sym
 T 29500 52100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 31000 51000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M3
 T 29500 52500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1169,9 +1173,9 @@ C 73000 64000 1 0 0 GenericRap_Cutdown.sym
 T 76000 70500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 76000 70100 5 10 0 0 0 0 1
-footprint=_M2__GenericRap_Cutdown
+footprint=GenericRap_Cutdown
 T 77500 69000 5 10 1 1 0 0 1
-refdes=M2
+refdes=M10
 }
 L 90300 67000 92000 67000 3 0 0 0 -1 -1
 T 68800 80100 9 10 1 0 0 0 1
@@ -1186,7 +1190,7 @@ C 26500 55000 1 0 0 GenericRap_Cutdown.sym
 T 29500 61100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 31000 60000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M3
 T 29500 61500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1278,7 +1282,7 @@ footprint=GenericRap_Cutdown
 T 29500 34500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 31000 33000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M5
 }
 N 42100 33100 42100 34100 4
 N 42100 34100 42000 34100 4
@@ -1291,7 +1295,7 @@ footprint=GenericRap_Cutdown
 T 29500 43500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 31000 42000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M4
 }
 C 42100 43100 1 90 0 io-1.sym
 {
@@ -1322,7 +1326,7 @@ C 73000 46000 1 0 0 GenericRap_Cutdown.sym
 T 76000 52100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 77500 51000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M8
 T 76000 52500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1331,7 +1335,7 @@ C 73000 37000 1 0 0 GenericRap_Cutdown.sym
 T 76000 43100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 77500 42000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M7
 T 76000 43500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1342,7 +1346,7 @@ footprint=GenericRap_Cutdown
 T 76000 34500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 77500 33000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M6
 }
 C 73000 55000 1 0 0 GenericRap_Cutdown.sym
 {
@@ -1351,7 +1355,7 @@ footprint=GenericRap_Cutdown
 T 76000 61500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 77500 60000 5 10 1 1 0 0 1
-refdes=M?
+refdes=M9
 }
 C 89500 54100 1 0 1 io-1.sym
 {
@@ -1602,7 +1606,7 @@ C 59200 75900 1 270 0 GenericRap.sym
 T 65700 72900 5 10 0 0 270 0 1
 device=GenericRap
 T 65300 72900 5 10 0 0 270 0 1
-footprint=_M1__GenericRap_WireShield
+footprint=GenericRap
 T 64200 71400 5 10 1 1 270 0 1
 refdes=M1
 }
@@ -1661,7 +1665,7 @@ footprint=GenericRap_Cutdown
 T 56700 72900 5 10 0 0 270 0 1
 device=GenericRap_Cutdown
 T 55200 71400 5 10 1 1 270 0 1
-refdes=M?
+refdes=M2
 }
 T 54700 71400 9 10 1 0 270 0 1
 Slab Thermistor
@@ -1715,7 +1719,7 @@ L 77100 78500 77100 76200 3 0 0 0 -1 -1
 L 80900 78600 80900 76200 3 0 0 0 -1 -1
 L 69600 78700 71800 78700 3 0 0 0 -1 -1
 L 71800 78700 71800 76200 3 0 0 0 -1 -1
-L 89800 49000 91500 49000 3 0 0 0 -1 -1
+L 90300 49000 92000 49000 3 0 0 0 -1 -1
 T 93900 27200 9 10 1 0 0 0 11
 Use multiple junction boxes. Some of this circuitry may require
 expensive immerision cooling, some may not.
@@ -1747,3 +1751,17 @@ T 69200 28100 9 10 1 0 90 0 1
 105mm/4.125in
 T 88000 26600 9 10 1 0 0 0 1
 <60mm combined cable diameter
+C 65800 45600 1 0 0 illustration_breadboard.sym
+{
+T 65900 46300 5 10 0 0 0 0 1
+footprint=breadboard
+T 66200 46100 5 10 1 1 0 0 1
+refdes=I11
+}
+C 67900 45600 1 0 0 illustration_breadboard.sym
+{
+T 68000 46300 5 10 0 0 0 0 1
+footprint=breadboard
+T 68300 46100 5 10 1 1 0 0 1
+refdes=I12
+}

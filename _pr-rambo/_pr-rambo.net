@@ -1,0 +1,44 @@
+Thermistor-Slab	M2-45 
+Cooling1	M1-51 
+Vext	M2-41 M1-41 
+Heat1	M1-48 
+GND	M2-42 M1-42 M1-46 
+Thermistor-T0	M1-45 
+STEP-X-bM	M6-40 M7-40 
+STEP-X-aM	M6-39 M7-39 
+STEP-X-aP	M6-38 M7-38 
+STEP-X-bP	M6-37 M7-37 
+STEP-Z0-bM	M9-40 M8-40 
+STEP-Z0-aM	M9-39 M8-39 
+STEP-Z0-aP	M9-38 M8-38 
+STEP-Z0-bP	M9-37 M8-37 
+Limit_C-Y-min	M4-43 
+Limit_C-X-min	M5-43 
+unnamed_net20	D2-1 D1-1 
+Servo_PWM	M3-44 
+Limit_C-Z-min-1	D2-2 M3-43 
+STEP-E0-bM	M10-40 
+STEP-E0-aM	M10-39 
+STEP-E0-aP	M10-38 
+STEP-E0-bP	M10-37 
+Limit_C-Z-min-0	D1-2 M3-43 
+unnamed_net19	VSW2-1 S1-1 
+unnamed_net18	VSW2-2 S1-2 
+unnamed_net17	VSLAB1-2 VSLAB2-2 VSYS3-2 
+unnamed_net16	VSLAB20-2 I50-2 
+unnamed_net15	VSLAB20-1 I50-1 
+unnamed_net14	VSLAB1-1 VSLAB2-1 U1-4 
+unnamed_net13	VSYS3-1 U1-6 
+unnamed_net12	U1-2 VHEAT2-SLAB-2 
+unnamed_net11	U1-1 VHEAT2-SLAB-1 
+unnamed_net10	Z1-2 
+unnamed_net9	I20-2 
+unnamed_net8	Z1-1 I20-1 
+chassis	VSYS4-2 
+unnamed_net7	VSYS2-1 F2-2 
+unnamed_net6	VSW1-2 F2-1 
+unnamed_net5	VSW1-1 F1-2 
+unnamed_net4	VSYS2-2 VPSU1-2 
+unnamed_net3	F1-1 VPSU1-1 
+unnamed_net2	VPSU2-1 24vPSU-1 
+unnamed_net1	VPSU2-2 24vPSU-2 
