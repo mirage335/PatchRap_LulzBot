@@ -1118,7 +1118,7 @@ C 26500 46000 1 0 0 GenericRap_Cutdown.sym
 T 29500 52100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 31000 51000 5 10 1 1 0 0 1
-refdes=M3
+refdes=M4
 T 29500 52500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1129,7 +1129,7 @@ device=GenericRap_Cutdown
 T 76000 70100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 77500 69000 5 10 1 1 0 0 1
-refdes=M10
+refdes=M11
 }
 L 90300 67000 92000 67000 3 0 0 0 -1 -1
 T 68800 80100 9 10 1 0 0 0 1
@@ -1235,7 +1235,7 @@ footprint=GenericRap_Cutdown
 T 29500 34500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 31000 33000 5 10 1 1 0 0 1
-refdes=M5
+refdes=M6
 }
 N 42100 33100 42100 34100 4
 N 42100 34100 42000 34100 4
@@ -1248,7 +1248,7 @@ footprint=GenericRap_Cutdown
 T 29500 43500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 31000 42000 5 10 1 1 0 0 1
-refdes=M4
+refdes=M5
 }
 C 42100 43100 1 90 0 io-1.sym
 {
@@ -1288,7 +1288,7 @@ C 73000 37000 1 0 0 GenericRap_Cutdown.sym
 T 76000 43100 5 10 0 0 0 0 1
 footprint=GenericRap_Cutdown
 T 77500 42000 5 10 1 1 0 0 1
-refdes=M7
+refdes=M8
 T 76000 43500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 }
@@ -1299,7 +1299,7 @@ footprint=GenericRap_Cutdown
 T 76000 34500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 77500 33000 5 10 1 1 0 0 1
-refdes=M6
+refdes=M7
 }
 C 73000 55000 1 0 0 GenericRap_Cutdown.sym
 {
@@ -1308,7 +1308,7 @@ footprint=GenericRap_Cutdown
 T 76000 61500 5 10 0 0 0 0 1
 device=GenericRap_Cutdown
 T 77500 60000 5 10 1 1 0 0 1
-refdes=M9
+refdes=M10
 }
 C 89500 54100 1 0 1 io-1.sym
 {
