@@ -4,8 +4,7 @@ _pcb_color_config_custom() {
 	
 	# ATTENTION: Custom color schemes currently forced to 'wirewrap' .
 	
-	current_pcbColorSchemeWiringDiagram=wirewrap
-	
+	_pcb_color_config wirewrap
 	return 0
 	
 	
