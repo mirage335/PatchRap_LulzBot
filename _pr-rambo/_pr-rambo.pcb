@@ -29407,26 +29407,6 @@ Element["" "DIP6" "U1" "unknown" 12170.00mil 1695.00mil -50.00mil -50.00mil 3 10
 
 	)
 
-Element["" "XT60" "VHEAT2-SLAB" "60A" 12800.00mil 1800.00mil 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2"]
-	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
-	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
-	ElementLine [11.4000mm 4.1000mm 11.4000mm -4.0000mm 10.00mil]
-	ElementLine [11.4000mm -4.0000mm -4.3000mm -4.0000mm 10.00mil]
-	ElementLine [9.7000mm -4.0000mm 11.4000mm -2.3000mm 10.00mil]
-	ElementLine [9.7000mm 4.1000mm 11.4000mm 2.4000mm 10.00mil]
-	ElementLine [0.0000 -4.0000mm 0.0000 4.1000mm 10.00mil]
-	ElementLine [7.2000mm -4.0000mm 7.2000mm 4.1000mm 10.00mil]
-	ElementLine [-4.3000mm 0.0000 11.4000mm 0.0000 10.00mil]
-
-	)
 
 Element["" "GenericRap_Cutdown" "M10" "unknown" 7350.00mil 2490.00mil 140.00mil 130.00mil 0 100 ""]
 (
@@ -30465,47 +30445,7 @@ Element["" "XT60" "VPSU2" "60A" 15700.00mil 1700.00mil 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "ACY100P" "24vPSU" "unknown" 16295.00mil 1620.00mil 0.0000 -8.00mil 0 100 ""]
-(
-	Attribute("device" "VOLTAGE_SOURCE")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 55.00mil 30.00mil 61.00mil 30.00mil "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 25.00mil 0.0000 10.00mil]
-	ElementLine [75.00mil 0.0000 100.00mil 0.0000 10.00mil]
-	ElementLine [25.00mil -8.00mil 75.00mil -8.00mil 10.00mil]
-	ElementLine [75.00mil -8.00mil 75.00mil 8.00mil 10.00mil]
-	ElementLine [75.00mil 8.00mil 25.00mil 8.00mil 10.00mil]
-	ElementLine [25.00mil 8.00mil 25.00mil -8.00mil 10.00mil]
-	ElementLine [0.0000 -77.00mil 0.0000 -37.00mil 10.00mil]
-	ElementLine [-20.00mil -57.00mil 20.00mil -57.00mil 10.00mil]
-	ElementLine [80.00mil -57.00mil 120.00mil -57.00mil 10.00mil]
 
-	)
-
-Element["" "XT60" "VHEAT1-SLAB" "60A" 16710.00mil 1700.00mil 0.0000 0.0000 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "1" "1" "edge2"]
-	Pin[7.2000mm 0.0000 6.0000mm 20.00mil 6.1524mm 4.7500mm "2" "2" "edge2"]
-	ElementLine [-4.3000mm -4.0000mm -4.3000mm 4.1000mm 10.00mil]
-	ElementLine [-4.3000mm 4.1000mm 11.4000mm 4.1000mm 10.00mil]
-	ElementLine [11.4000mm 4.1000mm 11.4000mm -4.0000mm 10.00mil]
-	ElementLine [11.4000mm -4.0000mm -4.3000mm -4.0000mm 10.00mil]
-	ElementLine [9.7000mm -4.0000mm 11.4000mm -2.3000mm 10.00mil]
-	ElementLine [9.7000mm 4.1000mm 11.4000mm 2.4000mm 10.00mil]
-	ElementLine [0.0000 -4.0000mm 0.0000 4.1000mm 10.00mil]
-	ElementLine [7.2000mm -4.0000mm 7.2000mm 4.1000mm 10.00mil]
-	ElementLine [-4.3000mm 0.0000 11.4000mm 0.0000 10.00mil]
-
-	)
 
 Element["" "ALF900" "D2" "unknown" 14630.00mil 2415.00mil 0.0000 -450.00mil 0 100 ""]
 (

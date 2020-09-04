@@ -1,5 +1,115 @@
 # Pin name action command file
 
+# Start of element T?
+ChangePinName(T?, 1, terminal)
+ChangePinName(T?, 1, terminal)
+ChangePinName(T?, 1, terminal)
+ChangePinName(T?, 1, terminal)
+ChangePinName(T?, 1, terminal)
+ChangePinName(T?, 1, terminal)
+
+# Start of element T34
+ChangePinName(T34, 1, terminal)
+
+# Start of element T33
+ChangePinName(T33, 1, terminal)
+
+# Start of element T32
+ChangePinName(T32, 1, terminal)
+
+# Start of element T31
+ChangePinName(T31, 1, terminal)
+
+# Start of element T30
+ChangePinName(T30, 1, terminal)
+
+# Start of element T29
+ChangePinName(T29, 1, terminal)
+
+# Start of element T28
+ChangePinName(T28, 1, terminal)
+
+# Start of element T27
+ChangePinName(T27, 1, terminal)
+
+# Start of element T26
+ChangePinName(T26, 1, terminal)
+
+# Start of element T25
+ChangePinName(T25, 1, terminal)
+
+# Start of element T24
+ChangePinName(T24, 1, terminal)
+
+# Start of element T23
+ChangePinName(T23, 1, terminal)
+
+# Start of element T22
+ChangePinName(T22, 1, terminal)
+
+# Start of element T21
+ChangePinName(T21, 1, terminal)
+
+# Start of element T20
+ChangePinName(T20, 1, terminal)
+
+# Start of element T19
+ChangePinName(T19, 1, terminal)
+
+# Start of element T18
+ChangePinName(T18, 1, terminal)
+
+# Start of element T17
+ChangePinName(T17, 1, terminal)
+
+# Start of element T16
+ChangePinName(T16, 1, terminal)
+
+# Start of element T15
+ChangePinName(T15, 1, terminal)
+
+# Start of element T14
+ChangePinName(T14, 1, terminal)
+
+# Start of element T13
+ChangePinName(T13, 1, terminal)
+
+# Start of element T12
+ChangePinName(T12, 1, terminal)
+
+# Start of element T11
+ChangePinName(T11, 1, terminal)
+
+# Start of element T10
+ChangePinName(T10, 1, terminal)
+
+# Start of element T9
+ChangePinName(T9, 1, terminal)
+
+# Start of element T8
+ChangePinName(T8, 1, terminal)
+
+# Start of element T7
+ChangePinName(T7, 1, terminal)
+
+# Start of element T6
+ChangePinName(T6, 1, terminal)
+
+# Start of element T5
+ChangePinName(T5, 1, terminal)
+
+# Start of element T4
+ChangePinName(T4, 1, terminal)
+
+# Start of element T3
+ChangePinName(T3, 1, terminal)
+
+# Start of element T2
+ChangePinName(T2, 1, terminal)
+
+# Start of element T1
+ChangePinName(T1, 1, terminal)
+
 # Start of element I12
 
 # Start of element I11
@@ -479,9 +589,9 @@ ChangePinName(U1, 4, 4)
 ChangePinName(U1, 6, 6)
 ChangePinName(U1, 5, 5)
 
-# Start of element VHEAT2-SLAB
-ChangePinName(VHEAT2-SLAB, 2, 2)
-ChangePinName(VHEAT2-SLAB, 1, 1)
+# Start of element VHEATSLAB2
+ChangePinName(VHEATSLAB2, 2, 2)
+ChangePinName(VHEATSLAB2, 1, 1)
 
 # Start of element Z1
 ChangePinName(Z1, 1, 1)
@@ -523,13 +633,13 @@ ChangePinName(VPSU1, 1, 1)
 ChangePinName(VPSU2, 2, 2)
 ChangePinName(VPSU2, 1, 1)
 
-# Start of element 24vPSU
-ChangePinName(24vPSU, 1, 1)
-ChangePinName(24vPSU, 2, 2)
+# Start of element PSU1
+ChangePinName(PSU1, 1, 1)
+ChangePinName(PSU1, 2, 2)
 
-# Start of element VHEAT1-SLAB
-ChangePinName(VHEAT1-SLAB, 2, 2)
-ChangePinName(VHEAT1-SLAB, 1, 1)
+# Start of element VHEATSLAB1
+ChangePinName(VHEATSLAB1, 2, 2)
+ChangePinName(VHEATSLAB1, 1, 1)
 
 # Start of element I10
 

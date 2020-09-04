@@ -1,5 +1,14 @@
 # ATTENTION: Override with 'ops' or similar. Example color schemes included within '_pcb_color_config' function.
 _pcb_color_config_custom() {
+	
+	
+	# ATTENTION: Custom color schemes currently forced to 'wirewrap' .
+	
+	current_pcbColorSchemeWiringDiagram=wirewrap
+	
+	return 0
+	
+	
 	local current_pcbColorSchemeWiringDiagram
 	current_pcbColorSchemeWiringDiagram="$1"
 	[[ "$current_pcbColorSchemeWiringDiagram" == "" ]] && current_pcbColorSchemeWiringDiagram=custom
@@ -34,13 +43,14 @@ _pcb_color_config_custom() {
 		
 		
 		
-		# ATTENTION: Must render with 'wirewrap' colors for documentation. Only use 'T568A' colors during development to assign colors that may be repurposed for direct connection to standard RJ45 wire without PatchRap patch .
+		# ATTENTION: Must render with 'wirewrap' colors for documentation. Only use 'T568A' colors during development to assign colors that may be repurposed for direct connection to standard RJ45 wire without PatchRap patch . Only consider 'T568A' when there is no conflict with meaningful 'wirewrap' colors.
+		# WARNING: Meaningful 'wirewrap' colors (eg. red/black) must be used where appropriate.
 		
 		# Typical 'wirewrap' colors.
-		#specialArgs_pcb+=( --layer-color-1 "#246F9B" --layer-color-2 "#D2B831" --layer-color-3 "#8276AA" --layer-color-4 "#379966" --layer-color-5 "#D76B2F" --layer-color-6 "#7C4E3B" --layer-color-7 "#9B3025" --layer-color-8 "#595959" )
+		specialArgs_pcb+=( --layer-color-1 "#246F9B" --layer-color-2 "#D2B831" --layer-color-3 "#8276AA" --layer-color-4 "#379966" --layer-color-5 "#D76B2F" --layer-color-6 "#7C4E3B" --layer-color-7 "#9B3025" --layer-color-8 "#595959" )
 		
 		# Standard 'T568A' colors commonly used by Ethernet/Telephone cable.
-		specialArgs_pcb+=( --layer-color-1 "#6666FF" --layer-color-2 "#0000A6" --layer-color-3 "#FFCC66" --layer-color-4 "#A66F00" --layer-color-5 "#66FF66" --layer-color-6 "#00A600" --layer-color-7 "#8C4F31" --layer-color-8 "#592C16" )
+		#specialArgs_pcb+=( --layer-color-1 "#6666FF" --layer-color-2 "#0000A6" --layer-color-3 "#FFCC66" --layer-color-4 "#A66F00" --layer-color-5 "#66FF66" --layer-color-6 "#00A600" --layer-color-7 "#8C4F31" --layer-color-8 "#592C16" )
 		
 		# Additional layers used to merge PatchRap T568A power rail assignments.
 		# Pin3, WO, Vext
