@@ -35984,8 +35984,6 @@ Layer(13 "outline" "copper")
 	Line[10755.00mil 2530.00mil 10755.00mil 1185.00mil 10.00mil 20.00mil "clearline"]
 	Line[10755.00mil 1185.00mil 11895.00mil 1185.00mil 10.00mil 20.00mil "clearline"]
 	Line[11895.00mil 1185.00mil 11895.00mil 725.00mil 10.00mil 20.00mil "clearline"]
-	Line[11895.00mil 725.00mil 14460.00mil 725.00mil 10.00mil 20.00mil "clearline"]
-	Line[14460.00mil 725.00mil 14460.00mil 0.0000 10.00mil 20.00mil "clearline"]
 	Line[14460.00mil 0.0000 10475.00mil 0.0000 10.00mil 20.00mil "clearline"]
 	Line[10475.00mil 0.0000 10470.00mil 5.00mil 10.00mil 20.00mil "clearline"]
 	Line[10470.00mil 5.00mil 10470.00mil 680.00mil 10.00mil 20.00mil "clearline"]
@@ -36000,8 +35998,6 @@ Layer(13 "outline" "copper")
 	Line[1005.00mil 270.00mil 1005.00mil 525.00mil 10.00mil 20.00mil "clearline"]
 	Line[1005.00mil 525.00mil 715.00mil 525.00mil 10.00mil 20.00mil "clearline"]
 	Line[715.00mil 525.00mil 715.00mil 0.0000 10.00mil 20.00mil "clearline"]
-	Line[715.00mil 0.0000 4420.00mil 0.0000 10.00mil 20.00mil "clearline"]
-	Line[4420.00mil 0.0000 4420.00mil 985.00mil 10.00mil 20.00mil "clearline"]
 	Line[7430.00mil 4175.00mil 4010.00mil 4175.00mil 10.00mil 20.00mil "clearline"]
 	Line[4010.00mil 2515.00mil 4010.00mil 4175.00mil 10.00mil 20.00mil "clearline"]
 	Line[5365.00mil 4960.00mil 5365.00mil 4700.00mil 10.00mil 20.00mil "clearline"]
@@ -36030,6 +36026,14 @@ Layer(13 "outline" "copper")
 	Line[14460.00mil 1765.00mil 14010.00mil 1765.00mil 10.00mil 20.00mil "clearline"]
 	Line[14010.00mil 1765.00mil 14010.00mil 1375.00mil 10.00mil 20.00mil "clearline"]
 	Line[14695.00mil 1375.00mil 14010.00mil 1375.00mil 10.00mil 20.00mil "clearline"]
+	Line[715.00mil 0.0000 4325.00mil 0.0000 10.00mil 20.00mil "clearline"]
+	Line[4325.00mil 0.0000 4325.00mil 755.00mil 10.00mil 20.00mil "clearline"]
+	Line[4325.00mil 755.00mil 4420.00mil 755.00mil 10.00mil 20.00mil "clearline"]
+	Line[4420.00mil 755.00mil 4420.00mil 985.00mil 10.00mil 20.00mil "clearline"]
+	Line[14460.00mil 0.0000 14460.00mil 570.00mil 10.00mil 20.00mil "clearline"]
+	Line[14460.00mil 570.00mil 13545.00mil 570.00mil 10.00mil 20.00mil "clearline"]
+	Line[13545.00mil 570.00mil 13545.00mil 725.00mil 10.00mil 20.00mil "clearline"]
+	Line[13545.00mil 725.00mil 11895.00mil 725.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(14 "jump" "copper")
 (
