@@ -2,10 +2,9 @@
 _pcb_color_config_custom() {
 	
 	
-	# ATTENTION: Custom color schemes currently forced to 'wirewrap' .
-	
-	_pcb_color_config wirewrap
-	return 0
+	# ATTENTION: Force custom color schemes to 'wirewrap' .
+	#_pcb_color_config wirewrap
+	#return 0
 	
 	
 	local current_pcbColorSchemeWiringDiagram
@@ -25,7 +24,7 @@ _pcb_color_config_custom() {
 		# Blue, Yellow as first two layers (Bottom, Top, respectively).
 		# Violet, Green, Orange, Brown/White, as subsequent arbitrary layers.
 		# Red, Black as logic power, or subsequent arbitrary layers.
-		specialArgs_pcb+=( --layer-color-1 "#246F9B" --layer-color-2 "#D2B831" --layer-color-3 "#8276AA" --layer-color-4 "#379966" --layer-color-5 "#D76B2F" --layer-color-6 "#7C4E3B" --layer-color-7 "#9B3025" --layer-color-8 "#595959" )
+		#specialArgs_pcb+=( --layer-color-1 "#246F9B" --layer-color-2 "#D2B831" --layer-color-3 "#8276AA" --layer-color-4 "#379966" --layer-color-5 "#D76B2F" --layer-color-6 "#7C4E3B" --layer-color-7 "#9B3025" --layer-color-8 "#595959" )
 		
 		# Additional layers typically invalid, as cables are bundles of smaller numbers of wires, and color codes are repeated for each bundle.
 		#specialArgs_pcb+=( --layer-color-9 "#E6B8B8" --layer-color-10 "#E6DAB8" --layer-color-11 "#CFE6B8" --layer-color-12 "#CFB8E6" )

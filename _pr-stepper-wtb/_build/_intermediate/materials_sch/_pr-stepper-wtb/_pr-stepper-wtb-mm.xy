@@ -1,7 +1,9 @@
 #refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
-BLACK,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,13.88,9.81,90,top
-RED,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,17.95,9.18,90,top
-GREEN,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,9.82,9.81,90,top
-BLUE,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,5.75,9.18,90,top
-R1,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,10.27,26.29,180,bottom
-STEP,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,11.68,20.59,0,top
+SHIELD2,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,5.38,6.25,90,top
+SHIELD1,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,27.73,6.25,90,top
+BLACK,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,18.59,11.97,90,top
+RED,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,22.65,11.34,90,top
+GREEN,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,14.52,11.97,90,top
+BLUE,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,10.46,11.34,90,top
+R1,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,14.98,28.45,180,bottom
+STEP,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,16.39,22.75,0,top

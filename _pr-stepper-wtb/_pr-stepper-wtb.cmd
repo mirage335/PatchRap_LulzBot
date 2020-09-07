@@ -1,5 +1,17 @@
 # Pin name action command file
 
+# Start of element SHIELD2
+ChangePinName(SHIELD2, 1, 1)
+ChangePinName(SHIELD2, 4, 4)
+ChangePinName(SHIELD2, 2, 2)
+ChangePinName(SHIELD2, 3, 3)
+
+# Start of element SHIELD1
+ChangePinName(SHIELD1, 1, 1)
+ChangePinName(SHIELD1, 4, 4)
+ChangePinName(SHIELD1, 2, 2)
+ChangePinName(SHIELD1, 3, 3)
+
 # Start of element T2
 ChangePinName(T2, 2, 2)
 ChangePinName(T2, 1, 1)

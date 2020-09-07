@@ -1,15 +1,17 @@
 # PcbXY Version 1.0
-# Date: Sun 30 Aug 2020 10:40:04 PM GMT UTC
+# Date: Sun 06 Sep 2020 06:52:47 PM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
 # X,Y in mil.  rotation in degrees.
 # --------------------------------------------
-BLACK,"wireToBoard.fp","-",546.50,386.26,90,top
-RED,"wireToBoard.fp","-",706.50,361.26,90,top
-GREEN,"wireToBoard.fp","-",386.50,386.26,90,top
-BLUE,"wireToBoard.fp","-",226.50,361.26,90,top
-R1,"0805","2.2k",404.26,1035.00,180,bottom
-STEP,"eth_571-1734795-1","-",459.84,810.68,0,top
-T2,"SparkGapPCB","2kV",523.74,727.84,0,bottom
-T1,"SparkGapPCB","2kV",492.84,966.26,90,bottom
+SHIELD2,"wireToBoard.fp","-",211.81,246.26,90,top
+SHIELD1,"wireToBoard.fp","-",1091.81,246.26,90,top
+BLACK,"wireToBoard.fp","-",731.81,471.26,90,top
+RED,"wireToBoard.fp","-",891.81,446.26,90,top
+GREEN,"wireToBoard.fp","-",571.81,471.26,90,top
+BLUE,"wireToBoard.fp","-",411.81,446.26,90,top
+R1,"0805","2.2k",589.57,1120.00,180,bottom
+STEP,"eth_571-1734795-1","-",645.16,895.68,0,top
+T2,"SparkGapPCB","2kV",709.05,812.84,0,bottom
+T1,"SparkGapPCB","2kV",678.16,1051.26,90,bottom
