@@ -4,10 +4,27 @@ See license.txt for _pr-rambo license conditions.
 
 __Usage__
 
+Connects standard robotics control electronics to PatchRap. Intended both as wiring diagram or flexible PCB layout.
+
+Typically <20 wires needed. Wirewrap should be fastest.
+
+
+Please see '_pr-rambo_wirewrap.png' for a wirewrap wiring diagram, as well as '_build/cad/_pr-rambo/RenderTop.pdf' ,  '_build/cad/_pr-rambo/RenderBottom.pdf' for flexible PCB layouts.
+
+As a wiring diagram, wirewrap, rainbow jumper cable, and T568A color schemes may be loaded with "gEDA_designer".
+
 
 __Design__
 
-To see intended or correct color coding PCB files must be opened with "_pcb_color_custom" provided by "gEDA_designer" .
+To see intended or correct color coding PCB files must be opened with "_pcb_color_custom" provided by "gEDA_designer" . Alternative wiring diagram color schemes offered by "gEDA_designer" are typically made compatible on a best effort basis.
+
+Layouts and enclosures chosen are typically made compatible with oil immersion cooling on a best effort basis.
+
+A region of the control electronics near the stepper motor driver circuitry may be marked for compatibility with standard air/water heatsinks mounted on electrically insulating tape.
+
+
+If a flexible PCB is used, additional insulating tape may be needed on the far side to ensure sharp pins do not scratch through the soldermask.
+
 
 
 __Safety__
