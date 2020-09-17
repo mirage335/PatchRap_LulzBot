@@ -1,5 +1,5 @@
 # PcbXY Version 1.0
-# Date: Sat 29 Aug 2020 10:47:09 PM GMT UTC
+# Date: Thu 17 Sep 2020 07:54:34 AM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -34,7 +34,7 @@ J4,"0201","-",28.49,43.43,0,top
 J3,"0201","-",25.95,43.43,0,top
 Legacy1,"HEADER20_2","-",58.42,96.27,270,top
 I1,"illustration_extruder_typical","unknown",46.14,17.54,270,top
-I5,"illustration__endpoint_limit_typical","unknown",24.77,19.18,90,top
-I4,"illustration__endpoint_limit_typical","unknown",21.08,19.18,90,top
+I5,"illustration__endpoint_limit_typical","unknown",21.08,19.18,90,top
+I4,"illustration__endpoint_limit_typical","unknown",24.77,19.18,90,top
 I3,"illustration__endpoint_limit_typical","unknown",28.83,19.18,90,top
 I2,"illustration__endpoint_limit_typical","unknown",32.51,19.18,90,top

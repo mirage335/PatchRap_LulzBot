@@ -3891,6 +3891,10 @@ Layer(18 "top silk" "silk")
 	(
 		[1150.00mil 3480.00mil] [1120.00mil 3480.00mil] [1120.00mil 3520.00mil] [1150.00mil 3520.00mil] 
 	)
+	Polygon("clearpoly,fullpoly")
+	(
+		[2825.00mil 1220.00mil] [2880.00mil 1220.00mil] [2880.00mil 1275.00mil] [2825.00mil 1275.00mil] 
+	)
 )
 NetList()
 (

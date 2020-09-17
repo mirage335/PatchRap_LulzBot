@@ -20,7 +20,7 @@ WTB17,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,16.67,39.32,0,top
 Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,58.42,74.93,270,top
 Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,58.42,96.27,270,top
 I1,"illustration_extruder_typical","unknown",,,,,,,,,,,,,,46.14,17.54,270,top
-I5,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,24.77,19.18,90,top
-I4,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,21.08,19.18,90,top
+I5,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,21.08,19.18,90,top
+I4,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,24.77,19.18,90,top
 I3,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,28.83,19.18,90,top
 I2,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,32.51,19.18,90,top
