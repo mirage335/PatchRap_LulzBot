@@ -36346,8 +36346,6 @@ Layer(18 "top silk" "silk")
 	Line[5625.00mil 4670.00mil 5475.00mil 4820.00mil 40.00mil 20.00mil "clearline"]
 	Line[5875.00mil 4670.00mil 6025.00mil 4820.00mil 40.00mil 20.00mil "clearline"]
 	Line[6025.00mil 4670.00mil 5875.00mil 4820.00mil 40.00mil 20.00mil "clearline"]
-	Line[7895.00mil 5965.00mil 8045.00mil 6115.00mil 40.00mil 20.00mil "clearline"]
-	Line[8045.00mil 5965.00mil 7895.00mil 6115.00mil 40.00mil 20.00mil "clearline"]
 	Line[7895.00mil 6065.00mil 8045.00mil 6215.00mil 40.00mil 20.00mil "clearline"]
 	Line[8045.00mil 6065.00mil 7895.00mil 6215.00mil 40.00mil 20.00mil "clearline"]
 	Line[8470.00mil 6000.00mil 8620.00mil 6150.00mil 40.00mil 20.00mil "clearline"]
