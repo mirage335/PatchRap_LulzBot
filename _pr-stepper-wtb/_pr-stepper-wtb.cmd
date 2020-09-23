@@ -1,5 +1,17 @@
 # Pin name action command file
 
+# Start of element PGND
+ChangePinName(PGND, 1, 1)
+ChangePinName(PGND, 4, 4)
+ChangePinName(PGND, 2, 2)
+ChangePinName(PGND, 3, 3)
+
+# Start of element VSYS
+ChangePinName(VSYS, 1, 1)
+ChangePinName(VSYS, 4, 4)
+ChangePinName(VSYS, 2, 2)
+ChangePinName(VSYS, 3, 3)
+
 # Start of element SHIELD2
 ChangePinName(SHIELD2, 1, 1)
 ChangePinName(SHIELD2, 4, 4)

@@ -7,3 +7,5 @@ GREEN,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.57,0.47,90,top
 BLUE,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.41,0.45,90,top
 R1,"0805","2.2k",$0.148 MOUSER 71-CRCW08052K20JNEAH,0.148,RESISTOR,Vishay / Dale,CRCW08052K20JNEAHP,Mouser,71-CRCW08052K20JNEAH,www.mouser.com/ds/2/427/crcwhpe3-46056.pdf,9,c,,tape-no-leader,,0.59,1.12,180,bottom
 STEP,"eth_571-1734795-1","-",$0.95 MOUSER 571-1734795-1,0.95,CONNECTOR_13,TE Connectivity,1734795-1,Mouser,571-1734795-1,www.mouser.com/ds/2/418/NG_CD_1734795_E_C_1734795_E-658761.pdf,1,c,,other,not known to be available in machine usable format,0.65,0.90,0,top
+PGND,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,1.09,1.12,90,top
+VSYS,"wireToBoard.fp","-",,,CONNECTOR_4,,,,,,,,,,,0.21,1.12,90,top
