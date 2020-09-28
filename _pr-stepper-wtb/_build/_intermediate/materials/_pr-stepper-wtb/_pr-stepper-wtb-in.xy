@@ -1,5 +1,5 @@
 # PcbXY Version 1.0
-# Date: Wed 23 Sep 2020 11:56:44 AM GMT UTC
+# Date: Mon 28 Sep 2020 05:23:31 AM GMT UTC
 # Author: commonadmin
 # Title: (unknown) - PCB X-Y
 # RefDes, Description, Value, X, Y, rotation, top/bottom
@@ -12,8 +12,8 @@ RED,"wireToBoard.fp","-",0.89,0.45,90,top
 GREEN,"wireToBoard.fp","-",0.57,0.47,90,top
 BLUE,"wireToBoard.fp","-",0.41,0.45,90,top
 R1,"0805","2.2k",0.59,1.12,180,bottom
-STEP,"eth_571-1734795-1","-",0.65,0.90,0,top
-T2,"SparkGapPCB","2kV",0.71,0.81,0,bottom
+T2,"SparkGapPCB","2kV",0.80,0.99,0,bottom
 T1,"SparkGapPCB","2kV",0.68,1.05,90,bottom
 PGND,"wireToBoard.fp","-",1.09,1.12,90,top
 VSYS,"wireToBoard.fp","-",0.21,1.12,90,top
+STEP,"eth_571-1734795-1","-",0.65,0.90,0,top
