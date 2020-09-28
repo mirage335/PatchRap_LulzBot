@@ -1949,10 +1949,10 @@ Element["hidename" "illustration__endpoint_limit_typical" "I2" "unknown" 755.00m
 	ElementLine [0.0000 -310.00mil 0.0000 0.0000 6.00mil]
 
 	)
-Rat[1295.00mil 1590.00mil 0 1615.00mil 495.00mil 0  ""]
-Rat[1215.00mil 1590.00mil 0 1570.00mil 495.00mil 0  ""]
 Rat[1270.00mil 1590.00mil 0 1470.00mil 495.00mil 0  ""]
 Rat[1240.00mil 1590.00mil 0 1515.00mil 495.00mil 0  ""]
+Rat[1295.00mil 1590.00mil 0 1615.00mil 495.00mil 0  ""]
+Rat[1215.00mil 1590.00mil 0 1570.00mil 495.00mil 0  ""]
 Rat[1675.00mil 1590.00mil 0 1270.00mil 495.00mil 0  ""]
 Rat[1645.00mil 1590.00mil 0 1315.00mil 495.00mil 0  ""]
 Rat[1565.00mil 1590.00mil 0 1370.00mil 495.00mil 0  ""]
@@ -2187,10 +2187,6 @@ Layer(18 "top silk" "silk")
 	Line[700.00mil 300.00mil 700.00mil 50.00mil 10.00mil 20.00mil "clearline"]
 	Line[700.00mil 400.00mil 657.50mil 357.50mil 10.00mil 20.00mil "clearline"]
 	Line[657.50mil 357.50mil 657.50mil 100.00mil 10.00mil 20.00mil "clearline"]
-	Line[370.00mil 435.00mil 470.00mil 335.00mil 10.00mil 20.00mil "clearline"]
-	Line[470.00mil 335.00mil 570.00mil 435.00mil 10.00mil 20.00mil "clearline"]
-	Line[570.00mil 435.00mil 370.00mil 435.00mil 10.00mil 20.00mil "clearline"]
-	Line[625.00mil 400.00mil 575.00mil 400.00mil 10.00mil 20.00mil "clearline"]
 	Line[1675.00mil 175.00mil 1625.00mil 225.00mil 10.00mil 20.00mil "clearline"]
 	Line[625.00mil 175.00mil 575.00mil 225.00mil 10.00mil 20.00mil "clearline"]
 	Line[575.00mil 225.00mil 1625.00mil 225.00mil 10.00mil 20.00mil "clearline"]
@@ -2214,9 +2210,10 @@ Layer(18 "top silk" "silk")
 	Line[1490.00mil 1255.00mil 1490.00mil 1245.00mil 6.00mil 20.00mil "clearline"]
 	Line[1430.00mil 1635.00mil 1430.00mil 1325.00mil 6.00mil 20.00mil "clearline"]
 	Line[1490.00mil 1635.00mil 1490.00mil 1325.00mil 6.00mil 20.00mil "clearline"]
-	Text[90.00mil 260.00mil 0 76 "Polarity marker" "clearline"]
-	Text[110.00mil 370.00mil 0 100 "(unusual)" "clearline"]
-	Text[90.00mil 320.00mil 0 76 "pin2 side." "clearline"]
+	Line[1670.00mil 300.00mil 1620.00mil 300.00mil 10.00mil 20.00mil "clearline"]
+	Line[1680.00mil 335.00mil 1780.00mil 235.00mil 10.00mil 20.00mil "clearline"]
+	Line[1780.00mil 235.00mil 1880.00mil 335.00mil 10.00mil 20.00mil "clearline"]
+	Line[1880.00mil 335.00mil 1680.00mil 335.00mil 10.00mil 20.00mil "clearline"]
 	Text[245.00mil 135.00mil 0 77 "pins longer." "clearline"]
 	Text[250.00mil 90.00mil 0 77 "Far side pin1 side" "clearline"]
 	Text[690.00mil 1990.00mil 0 53 "Mini Only" "clearline"]
@@ -2232,10 +2229,6 @@ Layer(18 "top silk" "silk")
 	Text[860.00mil 1505.00mil 1 77 "Pins 11-20" "clearline"]
 	Text[1380.00mil 1540.00mil 1 77 "Pins 11-20" "clearline"]
 	Text[920.00mil 1505.00mil 1 77 "Pins 01-10" "clearline"]
-	Polygon("clearpoly")
-	(
-		[370.00mil 435.00mil] [470.00mil 335.00mil] [570.00mil 435.00mil] 
-	)
 	Polygon("clearpoly")
 	(
 		[1660.00mil 1800.00mil] [1690.00mil 1800.00mil] [1690.00mil 1760.00mil] [1660.00mil 1760.00mil] 
@@ -2276,28 +2269,32 @@ Layer(18 "top silk" "silk")
 	(
 		[805.00mil 1700.00mil] [835.00mil 1700.00mil] [835.00mil 1660.00mil] [805.00mil 1660.00mil] 
 	)
+	Polygon("clearpoly")
+	(
+		[1680.00mil 335.00mil] [1780.00mil 235.00mil] [1880.00mil 335.00mil] 
+	)
 )
 NetList()
 (
 	Net("aM" "(unknown)")
 	(
-		Connect("I1-10")
-		Connect("Legacy1-1")
-	)
-	Net("aP" "(unknown)")
-	(
-		Connect("I1-7")
-		Connect("Legacy1-2")
-	)
-	Net("bM" "(unknown)")
-	(
 		Connect("I1-9")
 		Connect("Legacy1-4")
 	)
-	Net("bP" "(unknown)")
+	Net("aP" "(unknown)")
 	(
 		Connect("I1-8")
 		Connect("Legacy1-3")
+	)
+	Net("bM" "(unknown)")
+	(
+		Connect("I1-10")
+		Connect("Legacy1-1")
+	)
+	Net("bP" "(unknown)")
+	(
+		Connect("I1-7")
+		Connect("Legacy1-2")
 	)
 	Net("coolingM" "(unknown)")
 	(

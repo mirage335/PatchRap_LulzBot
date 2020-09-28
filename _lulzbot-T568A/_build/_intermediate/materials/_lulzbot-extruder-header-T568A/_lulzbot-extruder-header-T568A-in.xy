@@ -1,0 +1,13 @@
+# PcbXY Version 1.0
+# Date: Mon 28 Sep 2020 04:20:42 AM GMT UTC
+# Author: commonadmin
+# Title: (unknown) - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in in.  rotation in degrees.
+# --------------------------------------------
+Legacy1,"HEADER20_2","-",1.15,2.45,270,top
+I1,"illustration_extruder_typical","unknown",1.63,0.50,270,top
+I5,"illustration__endpoint_limit_typical","unknown",0.69,0.56,90,top
+I4,"illustration__endpoint_limit_typical","unknown",0.83,0.56,90,top
+I3,"illustration__endpoint_limit_typical","unknown",1.00,0.56,90,top
+I2,"illustration__endpoint_limit_typical","unknown",1.15,0.56,90,top

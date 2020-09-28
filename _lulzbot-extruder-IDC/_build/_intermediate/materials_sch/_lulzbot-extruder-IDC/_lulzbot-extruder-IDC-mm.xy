@@ -1,0 +1,7 @@
+#refdes,footprint,value,description,cost,device,mfr,mfrpn,dst,dstpn,link,link_page,supplier,sbapn,kitting,kitting_d,Xpos,Ypos,rot,side
+I1,"illustration_extruder_typical","unknown",,,,,,,,,,,,,,33.06,14.24,270,top
+Legacy1,"HEADER20_2","-",$0.48 MOUSER 649-68691-420HLF,0.48,CONNECTOR_20,Amphenol FCI,68691-420HLF,Mouser,649-68691-420HLF,www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,8,c,,other,not known to be available in machine usable format,29.21,49.53,270,top
+I5,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,9.27,15.88,90,top
+I4,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,12.95,15.88,90,top
+I3,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,17.14,15.88,90,top
+I2,"illustration__endpoint_limit_typical","unknown",,,,,,,,,,,,,,20.83,15.88,90,top
